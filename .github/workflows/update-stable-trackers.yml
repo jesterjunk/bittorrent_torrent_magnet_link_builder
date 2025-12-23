@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch + update data/stable_trackers.txt (only if non-empty and changed)
+      - name: Fetch + update data/stable_trackers.txt (raw bytes; only if non-empty and changed)
         env:
           URL: ${{ vars.STABLE_TRACKERS_URL_00 }}
         run: |
@@ -28,30 +28,25 @@ jobs:
           OUT="data/stable_trackers.txt"
           TMP="$(mktemp)"
 
-          # Fetch (preserve formatting/blank lines)
+          # Fetch EXACT content (no processing)
           curl -fsSL "$URL" -o "$TMP"
 
-          # Normalize Windows CRLF -> LF (keeps blank lines)
-          sed -i 's/\r$//' "$TMP"
-
-          # If the fetched page has no non-whitespace characters, do NOT overwrite existing file
+          # If the fetched page is empty/whitespace-only, do NOT overwrite
           if ! grep -q '[^[:space:]]' "$TMP"; then
-            echo "Fetched page is whitespace/empty; keeping existing $OUT (if any)."
+            echo "Fetched page is empty/whitespace; keeping existing $OUT (if any)."
             exit 0
           fi
 
-          # If file doesn't exist yet, create it; otherwise overwrite only if different
-          if [ ! -f "$OUT" ]; then
-            cp "$TMP" "$OUT"
-          else
-            if cmp -s "$TMP" "$OUT"; then
-              echo "No change."
-              exit 0
-            fi
-            cp "$TMP" "$OUT"
+          # Write only if different (preserves raw bytes including final newline)
+          if [ -f "$OUT" ] && cmp -s "$TMP" "$OUT"; then
+            echo "No change."
+            exit 0
           fi
 
+          cp "$TMP" "$OUT"
+
           # Commit + push if changed
+          git config core.autocrlf false
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "$OUT"
