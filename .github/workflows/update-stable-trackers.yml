@@ -28,25 +28,22 @@ jobs:
           OUT="data/stable_trackers.txt"
           TMP="$(mktemp)"
 
-          # Fetch
+          # Fetch (preserve formatting/blank lines)
           curl -fsSL "$URL" -o "$TMP"
 
-          # Normalize: drop CR, trim blank lines at ends, remove empty lines
+          # Normalize Windows CRLF -> LF (keeps blank lines)
           sed -i 's/\r$//' "$TMP"
-          grep -v '^[[:space:]]*$' "$TMP" > "${TMP}.clean" || true
-          mv "${TMP}.clean" "$TMP"
 
-          # If the fetched list is empty, do NOT overwrite existing file
-          if [ ! -s "$TMP" ]; then
-            echo "Fetched list is empty; keeping existing $OUT (if any)."
+          # If the fetched page has no non-whitespace characters, do NOT overwrite existing file
+          if ! grep -q '[^[:space:]]' "$TMP"; then
+            echo "Fetched page is whitespace/empty; keeping existing $OUT (if any)."
             exit 0
           fi
 
-          # If file doesn't exist yet, create it
+          # If file doesn't exist yet, create it; otherwise overwrite only if different
           if [ ! -f "$OUT" ]; then
             cp "$TMP" "$OUT"
           else
-            # Only overwrite if different
             if cmp -s "$TMP" "$OUT"; then
               echo "No change."
               exit 0
