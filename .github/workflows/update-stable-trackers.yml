@@ -27,28 +27,35 @@ jobs:
           mkdir -p data
           OUT="data/stable_trackers.txt"
           TMP="$(mktemp)"
+          trap 'rm -f "$TMP"' EXIT
 
-          # Fetch EXACT content (no processing)
-          curl -fsSL "$URL" -o "$TMP"
+          # Fetch raw response body bytes to disk (no text processing).
+          # Ask the server not to gzip/br-compress so the bytes are the page content, not a compressed variant.
+          curl -fsSL \
+            -H 'Accept-Encoding: identity' \
+            -o "$TMP" \
+            "$URL"
 
-          # If the fetched page is empty/whitespace-only, do NOT overwrite
-          if ! grep -q '[^[:space:]]' "$TMP"; then
-            echo "Fetched page is empty/whitespace; keeping existing $OUT (if any)."
+          # If the fetched body is empty, do NOT overwrite
+          if [ ! -s "$TMP" ]; then
+            echo "Fetched body is empty; keeping existing $OUT (if any)."
             exit 0
           fi
 
-          # Write only if different (preserves raw bytes including final newline)
-          if [ -f "$OUT" ] && cmp -s "$TMP" "$OUT"; then
+          # Write only if different (byte-for-byte)
+          if [ -f "$OUT" ] && cmp -s -- "$TMP" "$OUT"; then
             echo "No change."
             exit 0
           fi
 
-          cp "$TMP" "$OUT"
+          # Replace atomically-ish (within the workspace)
+          mv -f -- "$TMP" "$OUT"
+          trap - EXIT
 
           # Commit + push if changed
           git config core.autocrlf false
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "$OUT"
+          git add -- "$OUT"
           git commit -m "Update stable trackers" || exit 0
           git push
