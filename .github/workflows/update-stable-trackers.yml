@@ -1,0 +1,62 @@
+name: Update stable trackers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours (UTC)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stable-trackers
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch + update data/stable_trackers.txt (only if non-empty and changed)
+        env:
+          URL: ${{ vars.STABLE_TRACKERS_URL_00 }}
+        run: |
+          set -euo pipefail
+
+          mkdir -p data
+          OUT="data/stable_trackers.txt"
+          TMP="$(mktemp)"
+
+          # Fetch
+          curl -fsSL "$URL" -o "$TMP"
+
+          # Normalize: drop CR, trim blank lines at ends, remove empty lines
+          sed -i 's/\r$//' "$TMP"
+          grep -v '^[[:space:]]*$' "$TMP" > "${TMP}.clean" || true
+          mv "${TMP}.clean" "$TMP"
+
+          # If the fetched list is empty, do NOT overwrite existing file
+          if [ ! -s "$TMP" ]; then
+            echo "Fetched list is empty; keeping existing $OUT (if any)."
+            exit 0
+          fi
+
+          # If file doesn't exist yet, create it
+          if [ ! -f "$OUT" ]; then
+            cp "$TMP" "$OUT"
+          else
+            # Only overwrite if different
+            if cmp -s "$TMP" "$OUT"; then
+              echo "No change."
+              exit 0
+            fi
+            cp "$TMP" "$OUT"
+          fi
+
+          # Commit + push if changed
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          git commit -m "Update stable trackers" || exit 0
+          git push
