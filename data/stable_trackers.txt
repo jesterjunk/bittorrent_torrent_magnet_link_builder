@@ -40,6 +40,8 @@ udp://ns575949.ip-51-222-82.net:6969/announce
 
 https://tracker.moeblog.cn:443/announce
 
+https://tracker.yemekyedim.com:443/announce
+
 udp://tracker1.t-1.org:6969/announce
 
 udp://tracker3.t-1.org:6969/announce
@@ -88,8 +90,6 @@ https://tracker.alaskantf.com:443/announce
 
 udp://anna.bt.bontal.net:6969/announce
 
-https://tracker.yemekyedim.com:443/announce
-
 udp://tracker.dler.com:6969/announce
 
 udp://public.demonoid.ch:6969/announce
@@ -104,11 +104,11 @@ udp://open-tracker.demonoid.ch:6969/announce
 
 udp://open.demonoid.ch:6969/announce
 
-udp://tracker.gmi.gd:6969/announce
-
 udp://tracker-de-2.cutie.dating:1337/announce
 
 http://bvarf.tracker.sh:2086/announce
+
+udp://tracker.gmi.gd:6969/announce
 
 udp://retracker01-msk-virt.corbina.net:80/announce
 
