@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bittorrent Torrent Magnet Link Builder</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+
+    <style>
+        :root {
+            --bg: #1f1f1f;
+            --panel: #2a2a2a;
+            --panel_2: #262626;
+            --text: #d6d6d6;
+            --muted: #a6a6a6;
+            --border: #3a3a3a;
+            --accent: #7aa2f7;
+            --danger: #ff6b6b;
+            --ok: #8bd49c;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        .wrap {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+        }
+
+        .header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .header .hint {
+            color: var(--muted);
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        @media (min-width: 720px) {
+            .grid.two {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        input[type="text"],
+        input[type="url"],
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            background: var(--panel_2);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 10px;
+            outline: none;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 13px;
+        }
+
+        input[type="text"]:focus,
+        input[type="url"]:focus,
+        textarea:focus {
+            border-color: var(--accent);
+        }
+
+        textarea {
+            min-height: 140px;
+            resize: vertical;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 6px;
+        }
+
+        button {
+            background: transparent;
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 12px;
+            cursor: pointer;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 13px;
+        }
+
+        button:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        button.primary {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .status {
+            margin-top: 10px;
+            padding: 10px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--panel_2);
+            color: var(--muted);
+            font-size: 12px;
+            white-space: pre-wrap;
+        }
+
+        .status.ok {
+            border-color: rgba(139, 212, 156, 0.35);
+            color: var(--ok);
+        }
+
+        .status.err {
+            border-color: rgba(255, 107, 107, 0.35);
+            color: var(--danger);
+        }
+
+        .footer_note {
+            margin-top: 10px;
+            color: var(--muted);
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body class="terminal">
+    <div class="wrap">
+        <div class="card">
+            <div class="header">
+                <h1>Bittorrent Torrent Magnet Link Builder</h1>
+                <div class="hint">/?info_hash=&name=&tracker_list_url=</div>
+            </div>
+
+            <form id="magnet_form" autocomplete="off">
+                <div class="grid two">
+                    <div>
+                        <label for="info_hash_input">info_hash (required)</label>
+                        <input id="info_hash_input" name="info_hash" type="text" required />
+                    </div>
+
+                    <div>
+                        <label for="name_input">name (optional, defaults to info_hash)</label>
+                        <input id="name_input" name="name" type="text" />
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <div>
+                        <label for="tracker_list_url_input">tracker_list_url (optional)</label>
+                        <input id="tracker_list_url_input" name="tracker_list_url" type="url" />
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="primary" id="build_btn" type="submit">build</button>
+                    <button id="copy_btn" type="button">copy</button>
+                    <button id="clear_btn" type="button">clear</button>
+                </div>
+
+                <div class="grid" style="margin-top: 12px;">
+                    <div>
+                        <label for="output_textarea">output</label>
+                        <textarea id="output_textarea" readonly></textarea>
+                    </div>
+                </div>
+
+                <div id="status" class="status">ready</div>
+                <div class="footer_note">trackers are fetched from the provided list and filtered to udp://, http://, https://</div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            "use strict";
+
+            var default_tracker_list_url = "https://jesterjunk.github.io/bittorrent_torrent_magnet_link_builder/data/stable_trackers.txt";
+
+            var magnet_form = document.getElementById("magnet_form");
+            var info_hash_input = document.getElementById("info_hash_input");
+            var name_input = document.getElementById("name_input");
+            var tracker_list_url_input = document.getElementById("tracker_list_url_input");
+            var output_textarea = document.getElementById("output_textarea");
+            var status_el = document.getElementById("status");
+            var copy_btn = document.getElementById("copy_btn");
+            var clear_btn = document.getElementById("clear_btn");
+
+            function set_status(message, kind) {
+                status_el.textContent = message || "";
+                status_el.classList.remove("ok");
+                status_el.classList.remove("err");
+
+                if (kind === "ok") {
+                    status_el.classList.add("ok");
+                }
+                if (kind === "err") {
+                    status_el.classList.add("err");
+                }
+            }
+
+            function get_query_params() {
+                var params = new URLSearchParams(window.location.search);
+
+                return {
+                    info_hash: (params.get("info_hash") || "").trim(),
+                    name: (params.get("name") || "").trim(),
+                    tracker_list_url: (params.get("tracker_list_url") || "").trim()
+                };
+            }
+
+            function normalize_tracker_list_url(url) {
+                var u = (url || "").trim();
+                if (!u) {
+                    u = default_tracker_list_url;
+                }
+                return u;
+            }
+
+            function filter_trackers(text) {
+                var lines = (text || "").split(/\r?\n/);
+                var trackers = [];
+                var seen = {};
+
+                var i = 0;
+                for (i = 0; i < lines.length; i += 1) {
+                    var line = (lines[i] || "").trim();
+                    if (!line) {
+                        continue;
+                    }
+                    if (!/^(udp|http|https):\/\//i.test(line)) {
+                        continue;
+                    }
+                    if (seen[line]) {
+                        continue;
+                    }
+                    seen[line] = 1;
+                    trackers.push(line);
+                }
+
+                return trackers;
+            }
+
+            function build_magnet(info_hash, name, trackers) {
+                var safe_info_hash = (info_hash || "").trim();
+                var safe_name = (name || "").trim();
+
+                if (!safe_name) {
+                    safe_name = safe_info_hash;
+                }
+
+                var magnet = "magnet:?xt=urn:btih:" + encodeURIComponent(safe_info_hash) +
+                    "&dn=" + encodeURIComponent(safe_name);
+
+                var i = 0;
+                for (i = 0; i < trackers.length; i += 1) {
+                    magnet += "&tr=" + encodeURIComponent(trackers[i]);
+                }
+
+                return magnet;
+            }
+
+            function fetch_trackers(tracker_list_url) {
+                return fetch(tracker_list_url, { method: "GET" }).then(function (res) {
+                    if (!res.ok) {
+                        throw new Error("tracker list request failed: http " + String(res.status));
+                    }
+                    return res.text();
+                }).then(function (text) {
+                    return filter_trackers(text);
+                });
+            }
+
+            function run_build() {
+                var info_hash = (info_hash_input.value || "").trim();
+                var name = (name_input.value || "").trim();
+                var tracker_list_url = normalize_tracker_list_url(tracker_list_url_input.value || "");
+
+                if (!info_hash) {
+                    set_status("error: info_hash is required", "err");
+                    output_textarea.value = "";
+                    return;
+                }
+
+                set_status("fetching trackers...", "");
+                output_textarea.value = "";
+
+                fetch_trackers(tracker_list_url).then(function (trackers) {
+                    if (!trackers.length) {
+                        set_status("error: no valid trackers found (expected udp:// or http:// or https:// lines)", "err");
+                        return;
+                    }
+
+                    var magnet = build_magnet(info_hash, name, trackers);
+                    output_textarea.value = magnet;
+
+                    set_status("ok: built magnet with " + String(trackers.length) + " trackers", "ok");
+                }).catch(function (err) {
+                    set_status("error: " + String(err && err.message ? err.message : err), "err");
+                });
+            }
+
+            function run_copy() {
+                var text = (output_textarea.value || "").trim();
+                if (!text) {
+                    set_status("error: nothing to copy", "err");
+                    return;
+                }
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text).then(function () {
+                        set_status("ok: copied to clipboard", "ok");
+                    }).catch(function () {
+                        output_textarea.select();
+                        document.execCommand("copy");
+                        set_status("ok: copied to clipboard", "ok");
+                    });
+                    return;
+                }
+
+                output_textarea.select();
+                document.execCommand("copy");
+                set_status("ok: copied to clipboard", "ok");
+            }
+
+            function run_clear() {
+                info_hash_input.value = "";
+                name_input.value = "";
+                tracker_list_url_input.value = normalize_tracker_list_url("");
+                output_textarea.value = "";
+                set_status("ready", "");
+            }
+
+            function init_from_url_params() {
+                var qp = get_query_params();
+
+                if (qp.info_hash) {
+                    info_hash_input.value = qp.info_hash;
+                }
+
+                if (qp.name) {
+                    name_input.value = qp.name;
+                }
+
+                tracker_list_url_input.value = normalize_tracker_list_url(qp.tracker_list_url);
+
+                if (qp.info_hash) {
+                    run_build();
+                }
+            }
+
+            magnet_form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                run_build();
+            });
+
+            copy_btn.addEventListener("click", function () {
+                run_copy();
+            });
+
+            clear_btn.addEventListener("click", function () {
+                run_clear();
+            });
+
+            tracker_list_url_input.value = normalize_tracker_list_url("");
+            init_from_url_params();
+        }());
+    </script>
+</body>
+</html>
