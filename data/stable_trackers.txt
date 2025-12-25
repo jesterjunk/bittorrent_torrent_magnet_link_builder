@@ -60,8 +60,6 @@ udp://p4p.arenabg.com:1337/announce
 
 https://tracker.uraniumhexafluori.de:443/announce
 
-udp://www.torrent.eu.org:451/announce
-
 https://tracker.qingwa.pro:443/announce
 
 http://open.acgtracker.com:1096/announce
@@ -71,6 +69,8 @@ udp://tracker.0x7c0.com:6969/announce
 udp://retracker.lanta.me:2710/announce
 
 https://tracker.ghostchu-services.top:443/announce
+
+udp://www.torrent.eu.org:451/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
@@ -92,9 +92,9 @@ udp://tracker.dler.com:6969/announce
 
 udp://bandito.byterunner.io:6969/announce
 
-https://tracker.zhuqiy.com:443/announce
-
 udp://open.demonii.com:1337/announce
+
+https://tracker.zhuqiy.com:443/announce
 
 https://tracker.alaskantf.com:443/announce
 
