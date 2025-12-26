@@ -30,6 +30,8 @@ udp://tracker.ducks.party:1984/announce
 
 udp://extracker.dahrkael.net:6969/announce
 
+udp://tracker.tvunderground.org.ru:3218/announce
+
 https://t.213891.xyz:443/announce
 
 udp://torrentclub.online:54123/announce
@@ -60,6 +62,8 @@ udp://p4p.arenabg.com:1337/announce
 
 https://tracker.uraniumhexafluori.de:443/announce
 
+udp://tracker.flatuslifir.is:6969/announce
+
 https://tracker.qingwa.pro:443/announce
 
 http://open.acgtracker.com:1096/announce
@@ -73,8 +77,6 @@ https://tracker.ghostchu-services.top:443/announce
 udp://www.torrent.eu.org:451/announce
 
 http://tracker.dhitechnical.com:6969/announce
-
-udp://tracker.flatuslifir.is:6969/announce
 
 udp://tracker.opentorrent.top:6969/announce
 
@@ -90,17 +92,11 @@ udp://tracker.dler.com:6969/announce
 
 http://tracker.mywaifu.best:6969/announce
 
-udp://tracker.tvunderground.org.ru:3218/announce
-
 udp://bandito.byterunner.io:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
 udp://open.demonii.com:1337/announce
-
-udp://public.demonoid.ch:6969/announce
-
-udp://tracker.gmi.gd:6969/announce
 
 udp://tracker-de-2.cutie.dating:1337/announce
 
@@ -112,11 +108,15 @@ http://bvarf.tracker.sh:2086/announce
 
 udp://open.demonoid.ch:6969/announce
 
+udp://public.demonoid.ch:6969/announce
+
+udp://tracker.gmi.gd:6969/announce
+
+https://tracker.leechshield.link:443/announce
+
 https://tracker.alaskantf.com:443/announce
 
 https://tracker.pmman.tech:443/announce
-
-https://tracker.leechshield.link:443/announce
 
 http://echostar.ddnsfree.com:8080/announce
 
