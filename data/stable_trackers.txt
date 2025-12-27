@@ -62,8 +62,6 @@ udp://p4p.arenabg.com:1337/announce
 
 https://tracker.uraniumhexafluori.de:443/announce
 
-udp://tracker.flatuslifir.is:6969/announce
-
 https://tracker.qingwa.pro:443/announce
 
 udp://tracker.opentorrent.top:6969/announce
@@ -75,6 +73,8 @@ udp://tracker.0x7c0.com:6969/announce
 https://tracker.ghostchu-services.top:443/announce
 
 udp://www.torrent.eu.org:451/announce
+
+udp://tracker.flatuslifir.is:6969/announce
 
 http://bt.okmp3.ru:2710/announce
 
