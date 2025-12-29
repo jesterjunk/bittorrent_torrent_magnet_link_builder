@@ -68,9 +68,9 @@ https://shahidrazi.online:443/announce
 
 udp://tracker.flatuslifir.is:6969/announce
 
-https://tracker.qingwa.pro:443/announce
-
 udp://tracker.opentorrent.top:6969/announce
+
+https://tracker.qingwa.pro:443/announce
 
 http://open.acgtracker.com:1096/announce
 
@@ -100,8 +100,6 @@ http://tracker.mywaifu.best:6969/announce
 
 udp://open.demonii.com:1337/announce
 
-http://bt.okmp3.ru:2710/announce
-
 udp://tracker.gmi.gd:6969/announce
 
 udp://tracker-de-2.cutie.dating:1337/announce
@@ -116,17 +114,19 @@ udp://retracker01-msk-virt.corbina.net:80/announce
 
 http://bvarf.tracker.sh:2086/announce
 
+http://bt.okmp3.ru:2710/announce
+
 https://tracker.alaskantf.com:443/announce
 
 https://tracker.pmman.tech:443/announce
-
-http://echostar.ddnsfree.com:8080/announce
 
 udp://tracker.plx.im:6969/announce
 
 https://cny.fan:443/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
+
+http://echostar.ddnsfree.com:8080/announce
 
 https://tracker.iochimari.moe:443/announce
 
