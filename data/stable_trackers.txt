@@ -66,11 +66,11 @@ udp://tracker.flatuslifir.is:6969/announce
 
 https://tracker.qingwa.pro:443/announce
 
+udp://tracker.bluefrog.pw:2710/announce
+
 http://open.acgtracker.com:1096/announce
 
 http://tr.highstar.shop:80/announce
-
-udp://tracker.bluefrog.pw:2710/announce
 
 http://ipv6.rer.lol:6969/announce
 
@@ -114,13 +114,13 @@ https://torrent.tracker.durukanbal.com:443/announce
 
 udp://open.demonii.com:1337/announce
 
-udp://open-tracker.demonoid.ch:6969/announce
-
 udp://open.demonoid.ch:6969/announce
 
 https://t.213891.xyz:443/announce
 
-udp://public.demonoid.ch:6969/announce
+udp://open-tracker.demonoid.ch:6969/announce
 
 udp://tr4ck3r.duckdns.org:6969/announce
+
+udp://public.demonoid.ch:6969/announce
 
