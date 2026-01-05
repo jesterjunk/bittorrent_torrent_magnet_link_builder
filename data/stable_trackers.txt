@@ -38,8 +38,6 @@ udp://ns575949.ip-51-222-82.net:6969/announce
 
 https://tracker.moeblog.cn:443/announce
 
-udp://d40969.acod.regrucolo.ru:6969/announce
-
 udp://martin-gebhardt.eu:25/announce
 
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
@@ -53,6 +51,8 @@ http://ipv4.rer.lol:2710/announce
 udp://tracker.tvunderground.org.ru:3218/announce
 
 udp://p4p.arenabg.com:1337/announce
+
+udp://d40969.acod.regrucolo.ru:6969/announce
 
 udp://tracker.fnix.net:6969/announce
 
@@ -100,9 +100,9 @@ http://tracker.bt4g.com:2095/announce
 
 http://bvarf.tracker.sh:2086/announce
 
-udp://tracker.plx.im:6969/announce
-
 udp://retracker01-msk-virt.corbina.net:80/announce
+
+udp://tracker.plx.im:6969/announce
 
 https://cny.fan:443/announce
 
@@ -110,13 +110,13 @@ https://tracker.iochimari.moe:443/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
 
-https://t.213891.xyz:443/announce
-
-udp://evan.im:6969/announce
-
 udp://tracker.srv00.com:6969/announce
 
-udp://tr4ck3r.duckdns.org:6969/announce
+udp://colivioo.com:6969/announce
+
+https://t.213891.xyz:443/announce
 
 http://echostar.ddnsfree.com:8080/announce
+
+udp://tr4ck3r.duckdns.org:6969/announce
 
