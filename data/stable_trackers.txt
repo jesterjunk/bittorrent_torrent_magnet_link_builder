@@ -84,9 +84,9 @@ https://t.213891.xyz:443/announce
 
 https://tracker.leechshield.link:443/announce
 
-http://tr.highstar.shop:80/announce
-
 udp://tracker.opentorrent.top:6969/announce
+
+http://tr.highstar.shop:80/announce
 
 http://tracker.mywaifu.best:6969/announce
 
@@ -102,9 +102,9 @@ http://bvarf.tracker.sh:2086/announce
 
 udp://www.torrent.eu.org:451/announce
 
-http://tracker.bt4g.com:2095/announce
-
 https://cny.fan:443/announce
+
+http://tracker.bt4g.com:2095/announce
 
 https://tracker.iochimari.moe:443/announce
 
@@ -114,7 +114,7 @@ udp://retracker01-msk-virt.corbina.net:80/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
 
-udp://tr4ck3r.duckdns.org:6969/announce
-
 udp://tracker.srv00.com:6969/announce
+
+udp://tr4ck3r.duckdns.org:6969/announce
 
