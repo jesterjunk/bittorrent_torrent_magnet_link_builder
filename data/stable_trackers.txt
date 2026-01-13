@@ -18,6 +18,8 @@ udp://tracker.ducks.party:1984/announce
 
 udp://extracker.dahrkael.net:6969/announce
 
+udp://tracker.tvunderground.org.ru:3218/announce
+
 udp://torrentclub.online:54123/announce
 
 udp://tracker.flatuslifir.is:6969/announce
@@ -40,11 +42,11 @@ udp://tracker1.t-1.org:6969/announce
 
 udp://tracker3.t-1.org:6969/announce
 
+http://taciturn-shadow.spb.ru:6969/announce
+
 http://tracker.renfei.net:8080/announce
 
 http://ipv4.rer.lol:2710/announce
-
-udp://tracker.tvunderground.org.ru:3218/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
@@ -52,7 +54,7 @@ udp://tracker.playground.ru:6969/announce
 
 udp://tracker.qu.ax:6969/announce
 
-udp://martin-gebhardt.eu:25/announce
+udp://d40969.acod.regrucolo.ru:6969/announce
 
 udp://tracker.t-1.org:6969/announce
 
@@ -60,9 +62,9 @@ https://tracker.qingwa.pro:443/announce
 
 udp://tracker.bluefrog.pw:2710/announce
 
-udp://d40969.acod.regrucolo.ru:6969/announce
-
 udp://tracker.fnix.net:6969/announce
+
+udp://martin-gebhardt.eu:25/announce
 
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
 
@@ -90,8 +92,6 @@ http://tracker.mywaifu.best:6969/announce
 
 udp://tracker.opentorrent.top:6969/announce
 
-http://taciturn-shadow.spb.ru:6969/announce
-
 udp://tracker.gmi.gd:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
@@ -102,6 +102,8 @@ udp://tracker.dler.com:6969/announce
 
 http://bt.okmp3.ru:2710/announce
 
+udp://tr4ck3r.duckdns.org:6969/announce
+
 https://cny.fan:443/announce
 
 https://tracker.iochimari.moe:443/announce
@@ -109,8 +111,6 @@ https://tracker.iochimari.moe:443/announce
 http://bvarf.tracker.sh:2086/announce
 
 https://tracker.leechshield.link:443/announce
-
-udp://tr4ck3r.duckdns.org:6969/announce
 
 udp://www.torrent.eu.org:451/announce
 
