@@ -60,8 +60,6 @@ udp://tracker1.t-1.org:6969/announce
 
 udp://tracker3.t-1.org:6969/announce
 
-udp://tracker.playground.ru:6969/announce
-
 udp://tracker.bluefrog.pw:2710/announce
 
 http://tracker.mywaifu.best:6969/announce
@@ -69,6 +67,8 @@ http://tracker.mywaifu.best:6969/announce
 udp://martin-gebhardt.eu:25/announce
 
 udp://tracker.t-1.org:6969/announce
+
+udp://tracker.playground.ru:6969/announce
 
 udp://tracker.fnix.net:6969/announce
 
@@ -110,13 +110,9 @@ udp://tr4ck3r.duckdns.org:6969/announce
 
 udp://www.torrent.eu.org:451/announce
 
-http://trackr.appolon.dev:6969/announce
-
-https://tracker.qingwa.pro:443/announce
-
 udp://retracker01-msk-virt.corbina.net:80/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
 
-udp://tracker.plx.im:6969/announce
+https://tracker.qingwa.pro:443/announce
 
