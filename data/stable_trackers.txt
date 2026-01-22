@@ -6,7 +6,7 @@ http://bt.okmp3.ru:2710/announce
 
 udp://tracker.torrent.eu.org:451/announce
 
-udp://public.demonoid.ch:6969/announce
+udp://open-tracker.demonoid.ch:6969/announce
 
 http://lucke.fenesisu.moe:6969/announce
 
@@ -38,7 +38,7 @@ https://tracker.moeblog.cn:443/announce
 
 udp://tracker.tryhackx.org:6969/announce
 
-udp://open-tracker.demonoid.ch:6969/announce
+udp://public.demonoid.ch:6969/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
 
@@ -82,11 +82,11 @@ https://tracker.pmman.tech:443/announce
 
 https://tracker.ghostchu-services.top:443/announce
 
-http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
-
 udp://tracker.gmi.gd:6969/announce
 
 https://tracker.moeking.me:443/announce
+
+http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
 
 https://shahidrazi.online:443/announce
 
@@ -114,5 +114,5 @@ udp://retracker01-msk-virt.corbina.net:80/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
 
-https://tracker.qingwa.pro:443/announce
+udp://tracker.plx.im:6969/announce
 
