@@ -6,6 +6,8 @@ udp://tracker.torrent.eu.org:451/announce
 
 http://lucke.fenesisu.moe:6969/announce
 
+https://tr.nyacat.pw:443/announce
+
 udp://tracker.ducks.party:1984/announce
 
 udp://extracker.dahrkael.net:6969/announce
@@ -70,6 +72,8 @@ udp://tracker.t-1.org:6969/announce
 
 udp://tracker.playground.ru:6969/announce
 
+udp://tracker.dler.com:6969/announce
+
 udp://tracker.fnix.net:6969/announce
 
 http://ipv6.rer.lol:6969/announce
@@ -87,8 +91,6 @@ udp://tracker.gmi.gd:6969/announce
 https://tracker.moeking.me:443/announce
 
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
-
-udp://tracker.dler.com:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
