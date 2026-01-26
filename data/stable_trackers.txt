@@ -30,8 +30,6 @@ http://bt.okmp3.ru:2710/announce
 
 https://tracker.moeblog.cn:443/announce
 
-udp://open-tracker.demonoid.ch:6969/announce
-
 udp://d40969.acod.regrucolo.ru:6969/announce
 
 udp://public.demonoid.ch:6969/announce
@@ -54,11 +52,13 @@ udp://tracker.dler.com:6969/announce
 
 udp://tracker.tryhackx.org:6969/announce
 
+udp://open-tracker.demonoid.ch:6969/announce
+
 udp://tracker.qu.ax:6969/announce
 
-udp://tracker1.t-1.org:6969/announce
-
 https://t.213891.xyz:443/announce
+
+http://tracker.mywaifu.best:6969/announce
 
 udp://open.demonii.com:1337/announce
 
@@ -66,7 +66,7 @@ udp://tracker.fnix.net:6969/announce
 
 udp://martin-gebhardt.eu:25/announce
 
-udp://open.demonoid.ch:6969/announce
+udp://tracker1.t-1.org:6969/announce
 
 udp://tracker3.t-1.org:6969/announce
 
@@ -76,9 +76,9 @@ udp://tracker.1h.is:1337/announce
 
 udp://tracker.playground.ru:6969/announce
 
-http://tracker.mywaifu.best:6969/announce
-
 http://ipv6.rer.lol:6969/announce
+
+udp://open.demonoid.ch:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
@@ -88,9 +88,9 @@ https://tr.nyacat.pw:443/announce
 
 http://aboutbeautifulgallopinghorsesinthegreenpasture.online:80/announce
 
-https://tracker.pmman.tech:443/announce
-
 udp://tracker.gmi.gd:6969/announce
+
+https://tracker.pmman.tech:443/announce
 
 http://tr.highstar.shop:80/announce
 
@@ -106,13 +106,11 @@ udp://www.torrent.eu.org:451/announce
 
 udp://tr4ck3r.duckdns.org:6969/announce
 
-https://cny.fan:443/announce
-
 http://bvarf.tracker.sh:2086/announce
 
 udp://tracker.plx.im:6969/announce
 
-udp://6ahddutb1ucc3cp.ru:6969/announce
+https://cny.fan:443/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
 
