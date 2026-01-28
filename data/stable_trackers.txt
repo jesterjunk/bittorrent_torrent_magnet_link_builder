@@ -34,6 +34,8 @@ http://bt.okmp3.ru:2710/announce
 
 https://tracker.moeblog.cn:443/announce
 
+udp://tracker.tryhackx.org:6969/announce
+
 udp://d40969.acod.regrucolo.ru:6969/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
@@ -51,8 +53,6 @@ udp://tracker.1h.is:1337/announce
 udp://tracker.bluefrog.pw:2710/announce
 
 udp://tracker.dler.com:6969/announce
-
-udp://tracker.tryhackx.org:6969/announce
 
 udp://tracker.qu.ax:6969/announce
 
@@ -74,9 +74,9 @@ https://tracker.ghostchu-services.top:443/announce
 
 udp://tracker.gmi.gd:6969/announce
 
-https://tracker.pmman.tech:443/announce
-
 udp://tracker.srv00.com:6969/announce
+
+https://tracker.pmman.tech:443/announce
 
 https://shahidrazi.online:443/announce
 
