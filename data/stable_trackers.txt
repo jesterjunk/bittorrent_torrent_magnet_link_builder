@@ -48,19 +48,19 @@ udp://tracker.corpscorp.online:80/announce
 
 udp://tracker.qu.ax:6969/announce
 
+udp://martin-gebhardt.eu:25/announce
+
 udp://tracker.playground.ru:6969/announce
 
-udp://tracker.fnix.net:6969/announce
-
 udp://evan.im:6969/announce
-
-udp://martin-gebhardt.eu:25/announce
 
 udp://tracker.t-1.org:6969/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 http://tracker.mywaifu.best:6969/announce
+
+udp://tracker.fnix.net:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
@@ -78,9 +78,9 @@ https://tracker.pmman.tech:443/announce
 
 https://tracker.zhuqiy.com:443/announce
 
-https://shahidrazi.online:443/announce
-
 udp://tracker.opentorrent.top:6969/announce
+
+https://shahidrazi.online:443/announce
 
 udp://tracker.plx.im:6969/announce
 
