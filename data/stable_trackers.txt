@@ -76,8 +76,6 @@ udp://tracker.plx.im:6969/announce
 
 http://tracker.mywaifu.best:6969/announce
 
-http://tracker.umunu.ru:6969/announce
-
 https://tracker.pmman.tech:443/announce
 
 https://tracker.zhuqiy.com:443/announce
@@ -89,6 +87,8 @@ http://tracker.dhitechnical.com:6969/announce
 udp://tracker.gmi.gd:6969/announce
 
 udp://tracker.opentorrent.top:6969/announce
+
+http://tracker.umunu.ru:6969/announce
 
 udp://tracker.dler.com:6969/announce
 
