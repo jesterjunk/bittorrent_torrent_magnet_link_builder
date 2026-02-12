@@ -72,9 +72,9 @@ udp://tracker.flatuslifir.is:6969/announce
 
 https://tr.nyacat.pw:443/announce
 
-udp://tracker.qu.ax:6969/announce
-
 http://tracker.mywaifu.best:6969/announce
+
+udp://tracker.qu.ax:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
