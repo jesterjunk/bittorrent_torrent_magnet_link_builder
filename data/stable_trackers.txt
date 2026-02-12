@@ -68,9 +68,9 @@ udp://tracker.srv00.com:6969/announce
 
 udp://tracker.torrust-demo.com:6969/announce
 
-https://tr.nyacat.pw:443/announce
-
 udp://tracker.flatuslifir.is:6969/announce
+
+https://tr.nyacat.pw:443/announce
 
 udp://tracker.qu.ax:6969/announce
 
