@@ -50,6 +50,8 @@ udp://tracker.bluefrog.pw:2710/announce
 
 udp://tracker.corpscorp.online:80/announce
 
+udp://tracker.torrust-demo.com:6969/announce
+
 http://taciturn-shadow.spb.ru:6969/announce
 
 http://tracker.waaa.moe:6969/announce
@@ -57,8 +59,6 @@ http://tracker.waaa.moe:6969/announce
 http://open.acgtracker.com:1096/announce
 
 http://bt.okmp3.ru:2710/announce
-
-udp://tracker.torrust-demo.com:6969/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
