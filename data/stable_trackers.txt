@@ -94,3 +94,5 @@ udp://tracker.dler.com:6969/announce
 
 http://bvarf.tracker.sh:2086/announce
 
+https://tracker.uraniumhexafluori.de:443/announce
+
