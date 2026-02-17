@@ -12,8 +12,6 @@ udp://tracker.torrust-demo.com:6969/announce
 
 udp://martin-gebhardt.eu:25/announce
 
-https://tracker.uraniumhexafluori.de:443/announce
-
 http://lucke.fenesisu.moe:6969/announce
 
 http://tracker.renfei.net:8080/announce
@@ -44,8 +42,6 @@ http://ipv4.rer.lol:2710/announce
 
 udp://open.demonii.com:1337/announce
 
-udp://tracker.fnix.net:6969/announce
-
 udp://tracker.t-1.org:6969/announce
 
 udp://tracker.bluefrog.pw:2710/announce
@@ -66,9 +62,11 @@ http://wegkxfcivgx.ydns.eu:80/announce
 
 https://tracker.moeblog.cn:443/announce
 
-https://tracker.ghostchu-services.top:443/announce
+udp://tracker.fnix.net:6969/announce
 
 udp://tracker.flatuslifir.is:6969/announce
+
+https://tracker.ghostchu-services.top:443/announce
 
 udp://tracker.srv00.com:6969/announce
 
@@ -90,11 +88,11 @@ udp://tracker.gmi.gd:6969/announce
 
 https://tracker.pmman.tech:443/announce
 
+udp://tracker-udp.gbitt.info:80/announce
+
 udp://tracker.opentorrent.top:6969/announce
 
 udp://tracker.dler.com:6969/announce
-
-udp://tracker-udp.gbitt.info:80/announce
 
 http://bvarf.tracker.sh:2086/announce
 
