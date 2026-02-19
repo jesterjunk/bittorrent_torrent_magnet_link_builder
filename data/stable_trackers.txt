@@ -60,13 +60,15 @@ http://taciturn-shadow.spb.ru:6969/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
+https://tr.nyacat.pw:443/announce
+
 udp://tracker.flatuslifir.is:6969/announce
 
 udp://tracker.fnix.net:6969/announce
 
 https://tracker.ghostchu-services.top:443/announce
 
-https://tr.nyacat.pw:443/announce
+udp://tracker.opentorrent.top:6969/announce
 
 udp://tracker.srv00.com:6969/announce
 
@@ -78,8 +80,6 @@ udp://tracker-udp.gbitt.info:80/announce
 
 https://tracker.zhuqiy.com:443/announce
 
-udp://tracker.opentorrent.top:6969/announce
-
 udp://tracker.qu.ax:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
@@ -88,9 +88,9 @@ udp://tracker.gmi.gd:6969/announce
 
 udp://d40969.acod.regrucolo.ru:6969/announce
 
-https://tracker.moeblog.cn:443/announce
-
 udp://tracker.dler.com:6969/announce
+
+https://tracker.moeblog.cn:443/announce
 
 http://bvarf.tracker.sh:2086/announce
 
