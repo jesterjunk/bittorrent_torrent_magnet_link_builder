@@ -60,9 +60,9 @@ http://taciturn-shadow.spb.ru:6969/announce
 
 http://tracker.waaa.moe:6969/announce
 
-http://open.acgtracker.com:1096/announce
-
 http://wegkxfcivgx.ydns.eu:80/announce
+
+http://open.acgtracker.com:1096/announce
 
 udp://retracker.lanta.me:2710/announce
 
@@ -78,15 +78,15 @@ https://tracker.ghostchu-services.top:443/announce
 
 http://tracker.mywaifu.best:6969/announce
 
-https://tr.nyacat.pw:443/announce
-
 udp://tracker.srv00.com:6969/announce
+
+https://tr.nyacat.pw:443/announce
 
 udp://evan.im:6969/announce
 
-https://tracker.zhuqiy.com:443/announce
-
 udp://tracker.gmi.gd:6969/announce
+
+https://tracker.zhuqiy.com:443/announce
 
 udp://tracker.breizh.pm:6969/announce
 
@@ -103,4 +103,6 @@ http://bvarf.tracker.sh:2086/announce
 udp://admin.52ywp.com:6969/announce
 
 https://tracker.moeblog.cn:443/announce
+
+udp://d40969.acod.regrucolo.ru:6969/announce
 
