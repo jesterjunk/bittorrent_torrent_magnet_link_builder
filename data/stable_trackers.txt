@@ -24,8 +24,6 @@ udp://extracker.dahrkael.net:6969/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
-https://t.213891.xyz:443/announce
-
 udp://tracker.1h.is:1337/announce
 
 https://tracker.iochimari.moe:443/announce
@@ -44,8 +42,6 @@ udp://tracker.corpscorp.online:80/announce
 
 http://ipv6.rer.lol:6969/announce
 
-http://ipv4.rer.lol:2710/announce
-
 https://tracker.qingwapt.org:443/announce
 
 udp://tracker.riverarmy.xyz:6969/announce
@@ -58,6 +54,8 @@ udp://tracker.torrent.eu.org:451/announce
 
 udp://martin-gebhardt.eu:25/announce
 
+https://t.213891.xyz:443/announce
+
 udp://tracker.playground.ru:6969/announce
 
 https://tracker.novy.vip:443/announce
@@ -67,6 +65,8 @@ http://open.acgtracker.com:1096/announce
 http://taciturn-shadow.spb.ru:6969/announce
 
 udp://torrentvpn.club:6990/announce
+
+http://ipv4.rer.lol:2710/announce
 
 udp://uabits.today:6990/announce
 
@@ -105,4 +105,6 @@ udp://tracker.iperson.xyz:6969/announce
 udp://udp.tracker.projectk.org:23333/announce
 
 udp://utracker.ghostchu-services.top:6969/announce
+
+http://tracker.bt4g.com:2095/announce
 
