@@ -12,6 +12,8 @@ https://shahidrazi.online:443/announce
 
 udp://tracker.t-1.org:6969/announce
 
+http://wegkxfcivgx.ydns.eu:80/announce
+
 http://lucke.fenesisu.moe:6969/announce
 
 http://tracker.renfei.net:8080/announce
@@ -19,6 +21,8 @@ http://tracker.renfei.net:8080/announce
 https://tr.nyacat.pw:443/announce
 
 udp://extracker.dahrkael.net:6969/announce
+
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 https://t.213891.xyz:443/announce
 
@@ -54,8 +58,6 @@ udp://tracker.torrent.eu.org:451/announce
 
 udp://martin-gebhardt.eu:25/announce
 
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
-
 udp://tracker.playground.ru:6969/announce
 
 https://tracker.novy.vip:443/announce
@@ -68,13 +70,11 @@ udp://torrentvpn.club:6990/announce
 
 udp://open.demonii.com:1337/announce
 
+udp://evan.im:6969/announce
+
 http://tracker.waaa.moe:6969/announce
 
-http://wegkxfcivgx.ydns.eu:80/announce
-
 udp://uabits.today:6990/announce
-
-udp://evan.im:6969/announce
 
 udp://tracker.fnix.net:6969/announce
 
@@ -92,8 +92,6 @@ https://tracker.zhuqiy.com:443/announce
 
 udp://tracker.dler.com:6969/announce
 
-http://echostar.ddnsfree.com:8080/announce
-
 udp://tracker.qu.ax:6969/announce
 
 udp://tr4ck3r.duckdns.org:6969/announce
@@ -107,4 +105,6 @@ udp://tracker.iperson.xyz:6969/announce
 udp://udp.tracker.projectk.org:23333/announce
 
 udp://utracker.ghostchu-services.top:6969/announce
+
+http://echostar.ddnsfree.com:8080/announce
 
