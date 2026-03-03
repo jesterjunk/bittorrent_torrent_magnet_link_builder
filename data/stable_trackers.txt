@@ -54,8 +54,6 @@ udp://tracker.torrent.eu.org:451/announce
 
 udp://martin-gebhardt.eu:25/announce
 
-https://t.213891.xyz:443/announce
-
 udp://tracker.playground.ru:6969/announce
 
 https://tracker.novy.vip:443/announce
@@ -65,6 +63,8 @@ http://open.acgtracker.com:1096/announce
 udp://open.demonii.com:1337/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
+
+https://t.213891.xyz:443/announce
 
 udp://torrentvpn.club:6990/announce
 
@@ -76,11 +76,11 @@ udp://evan.im:6969/announce
 
 http://tracker.waaa.moe:6969/announce
 
+https://tracker.ghostchu-services.top:443/announce
+
 udp://tracker.fnix.net:6969/announce
 
 udp://tracker.gmi.gd:6969/announce
-
-https://tracker.ghostchu-services.top:443/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
@@ -96,9 +96,9 @@ udp://tracker.qu.ax:6969/announce
 
 udp://tracker.breizh.pm:6969/announce
 
-udp://tr4ck3r.duckdns.org:6969/announce
-
 udp://tracker.therarbg.to:6969/announce
+
+udp://tr4ck3r.duckdns.org:6969/announce
 
 udp://tracker.iperson.xyz:6969/announce
 
