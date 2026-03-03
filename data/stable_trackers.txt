@@ -64,8 +64,6 @@ udp://open.demonii.com:1337/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
 
-https://t.213891.xyz:443/announce
-
 http://ipv4.rer.lol:2710/announce
 
 udp://uabits.today:6990/announce
@@ -75,6 +73,8 @@ udp://evan.im:6969/announce
 http://tracker.waaa.moe:6969/announce
 
 https://tracker.ghostchu-services.top:443/announce
+
+https://t.213891.xyz:443/announce
 
 udp://torrentvpn.club:6990/announce
 
@@ -92,9 +92,9 @@ https://tracker.zhuqiy.com:443/announce
 
 udp://tracker.dler.com:6969/announce
 
-udp://tracker.qu.ax:6969/announce
-
 udp://tracker.breizh.pm:6969/announce
+
+udp://tracker.qu.ax:6969/announce
 
 udp://tracker.therarbg.to:6969/announce
 
