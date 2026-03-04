@@ -102,5 +102,3 @@ udp://udp.tracker.projectk.org:23333/announce
 
 udp://tracker.qu.ax:6969/announce
 
-udp://tr4ck3r.duckdns.org:6969/announce
-
