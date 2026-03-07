@@ -102,3 +102,5 @@ udp://tracker.qu.ax:6969/announce
 
 udp://udp.tracker.projectk.org:23333/announce
 
+udp://bt.rer.lol:6969/announce
+
