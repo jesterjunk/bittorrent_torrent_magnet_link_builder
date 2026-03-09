@@ -54,13 +54,13 @@ udp://evan.im:6969/announce
 
 udp://martin-gebhardt.eu:25/announce
 
+http://taciturn-shadow.spb.ru:6969/announce
+
 udp://tracker.playground.ru:6969/announce
 
 https://tracker.novy.vip:443/announce
 
 http://open.acgtracker.com:1096/announce
-
-http://taciturn-shadow.spb.ru:6969/announce
 
 udp://uabits.today:6990/announce
 
@@ -100,7 +100,7 @@ udp://tracker.therarbg.to:6969/announce
 
 udp://tracker.qu.ax:6969/announce
 
-udp://tracker.srv00.com:6969/announce
-
 udp://bt.rer.lol:6969/announce
+
+udp://tracker.srv00.com:6969/announce
 
