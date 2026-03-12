@@ -62,6 +62,8 @@ http://taciturn-shadow.spb.ru:6969/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
+https://t.213891.xyz:443/announce
+
 udp://tracker.playground.ru:6969/announce
 
 https://tracker.novy.vip:443/announce
@@ -71,8 +73,6 @@ http://ipv6.rer.lol:6969/announce
 http://ipv4.rer.lol:2710/announce
 
 http://open.acgtracker.com:1096/announce
-
-https://t.213891.xyz:443/announce
 
 udp://torrentvpn.club:6990/announce
 
