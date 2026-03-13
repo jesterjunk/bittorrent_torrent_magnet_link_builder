@@ -60,8 +60,6 @@ udp://martin-gebhardt.eu:25/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
 
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
-
 https://t.213891.xyz:443/announce
 
 udp://tracker.playground.ru:6969/announce
@@ -82,17 +80,19 @@ udp://tracker.gmi.gd:6969/announce
 
 https://tracker.ghostchu-services.top:443/announce
 
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
 udp://t.overflow.biz:6969/announce
-
-http://tracker.dhitechnical.com:6969/announce
-
-https://tracker.iochimari.moe:443/announce
 
 udp://tracker.torrust-demo.com:6969/announce
 
-http://tracker.waaa.moe:6969/announce
+http://tracker.dhitechnical.com:6969/announce
 
 https://tracker.manager.v6.navy:443/announce
+
+https://tracker.iochimari.moe:443/announce
+
+http://tracker.waaa.moe:6969/announce
 
 udp://tracker.dler.com:6969/announce
 
@@ -109,4 +109,6 @@ udp://tracker.qu.ax:6969/announce
 udp://bt.rer.lol:6969/announce
 
 udp://tracker.theoks.net:6969/announce
+
+https://tracker.pmman.tech:443/announce
 
