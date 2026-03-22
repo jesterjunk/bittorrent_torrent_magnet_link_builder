@@ -86,13 +86,13 @@ https://tr.zukizuki.org:443/announce
 
 udp://tracker.ixuexi.click:6969/announce
 
-https://tracker.nekomi.cn:443/announce
-
 udp://tracker.gmi.gd:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
 http://open.acgtracker.com:1096/announce
+
+https://tracker.nekomi.cn:443/announce
 
 udp://tracker.dler.com:6969/announce
 
