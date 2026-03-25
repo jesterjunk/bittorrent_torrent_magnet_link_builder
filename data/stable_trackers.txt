@@ -2,8 +2,6 @@ udp://tracker.opentrackr.org:1337/announce
 
 udp://open.stealth.si:80/announce
 
-udp://tracker-udp.gbitt.info:80/announce
-
 udp://tracker.torrent.eu.org:451/announce
 
 http://tracker.mywaifu.best:6969/announce
@@ -31,8 +29,6 @@ https://tr.zukizuki.org:443/announce
 http://echostar.ddnsfree.com:8080/announce
 
 https://tracker-zhuqiy.xn--1r3au8b.space:443/announce
-
-http://lucke.fenesisu.moe:6969/announce
 
 http://tracker.renfei.net:8080/announce
 
@@ -68,6 +64,8 @@ http://bt.okmp3.ru:2710/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
+http://lucke.fenesisu.moe:6969/announce
+
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 http://tracker.dhitechnical.com:6969/announce
@@ -82,15 +80,17 @@ http://ipv6.rer.lol:6969/announce
 
 http://ipv4.rer.lol:2710/announce
 
-https://tracker.moeblog.cn:443/announce
-
 udp://tracker.gmi.gd:6969/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
 
 udp://tracker.ixuexi.click:6969/announce
 
+https://tracker.moeblog.cn:443/announce
+
 udp://torrentvpn.club:6990/announce
+
+udp://tracker-udp.gbitt.info:80/announce
 
 udp://node01.trackerstatus.live:42069/announce
 
@@ -100,11 +100,11 @@ udp://tracker.therarbg.to:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
-udp://tracker.dler.com:6969/announce
-
 udp://open.demonii.com:1337/announce
 
 udp://tracker.tryhackx.org:6969/announce
+
+udp://tracker.dler.com:6969/announce
 
 http://tracker.bt4g.com:2095/announce
 
@@ -119,8 +119,6 @@ http://s1130639.ha009.t.mydomain.zone:80/announce
 udp://bt.rer.lol:6969/announce
 
 https://tracker.nekomi.cn:443/announce
-
-udp://tracker.torrust-demo.com:6969/announce
 
 http://tracker.skyts.net:6969/announce
 
