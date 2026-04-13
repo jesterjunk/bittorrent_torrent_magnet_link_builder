@@ -58,13 +58,13 @@ udp://tracker.ixuexi.click:6969/announce
 
 udp://uabits.today:6990/announce
 
-https://http1.torrust-tracker-demo.com:443/announce
-
 https://tracker.7471.top:443/announce
 
 udp://tracker.srv00.com:6969/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
+https://http1.torrust-tracker-demo.com:443/announce
 
 https://t.213891.xyz:443/announce
 
