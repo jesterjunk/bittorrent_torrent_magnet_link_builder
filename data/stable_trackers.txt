@@ -50,6 +50,8 @@ udp://tracker.gmi.gd:6969/announce
 
 udp://udp.tracker.projectk.org:23333/announce
 
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
 udp://tracker.playground.ru:6969/announce
 
 udp://tracker.opentorrent.top:6969/announce
@@ -62,11 +64,9 @@ https://tracker.7471.top:443/announce
 
 udp://tracker.srv00.com:6969/announce
 
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
+https://t.213891.xyz:443/announce
 
 https://http1.torrust-tracker-demo.com:443/announce
-
-https://t.213891.xyz:443/announce
 
 udp://tracker.torrust-demo.com:6969/announce
 
