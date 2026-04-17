@@ -42,6 +42,8 @@ udp://tracker.gmi.gd:6969/announce
 
 udp://udp.tracker.projectk.org:23333/announce
 
+https://opentracker.8880085.xyz:443/announce
+
 udp://tracker.playground.ru:6969/announce
 
 udp://tracker.opentorrent.top:6969/announce
@@ -63,8 +65,6 @@ https://torrents.tmtime.dev:443/announce
 udp://tracker.srv00.com:6969/announce
 
 https://tracker.pmman.tech:443/announce
-
-https://opentracker.8880085.xyz:443/announce
 
 https://http1.torrust-tracker-demo.com:443/announce
 
@@ -88,9 +88,9 @@ http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 udp://tracker-udp.gbitt.info:80/announce
 
-udp://seedpeer.net:6969/announce
-
 udp://tracker.wildkat.net:6969/announce
+
+udp://seedpeer.net:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
@@ -104,9 +104,9 @@ http://tracker.tritan.gg:8080/announce
 
 udp://bt.rer.lol:6969/announce
 
-https://torrent.tracker.durukanbal.com:443/announce
-
 udp://www.nartlof.com:6969/announce
+
+https://torrent.tracker.durukanbal.com:443/announce
 
 udp://admin.52ywp.com:6969/announce
 
