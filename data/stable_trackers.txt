@@ -70,9 +70,9 @@ https://tracker.pmman.tech:443/announce
 
 udp://tracker.fnix.net:6969/announce
 
-udp://tracker.torrust-demo.com:6969/announce
-
 udp://tracker.dler.com:6969/announce
+
+udp://tracker.torrust-demo.com:6969/announce
 
 udp://www.nartlof.com:6969/announce
 
