@@ -4,6 +4,8 @@ udp://tracker.torrent.eu.org:451/announce
 
 http://tracker.mywaifu.best:6969/announce
 
+udp://tracker.srv00.com:6969/announce
+
 udp://tracker.tryhackx.org:6969/announce
 
 udp://tracker.qu.ax:6969/announce
@@ -21,8 +23,6 @@ udp://udp.tracker.projectk.org:23333/announce
 http://echostar.ddnsfree.com:8080/announce
 
 http://tracker.renfei.net:8080/announce
-
-udp://tracker.plx.im:6969/announce
 
 udp://tracker.flatuslifir.is:6969/announce
 
@@ -46,8 +46,6 @@ https://tracker.7471.top:443/announce
 
 udp://tracker.nyaa.vc:6969/announce
 
-udp://tracker.srv00.com:6969/announce
-
 udp://tracker.gmi.gd:6969/announce
 
 udp://tracker.playground.ru:6969/announce
@@ -62,11 +60,11 @@ udp://yuptracker-eu.gaijinent.com:27022/announce
 
 https://torrents.tmtime.dev:443/announce
 
-https://tracker.pmman.tech:443/announce
-
 udp://tracker.fnix.net:6969/announce
 
 udp://tracker.dler.com:6969/announce
+
+udp://tracker.plx.im:6969/announce
 
 http://ipv6.rer.lol:6969/announce
 
@@ -79,6 +77,8 @@ http://tracker.exe.in.th:6969/announce
 https://t.213891.xyz:443/announce
 
 http://bt1.archive.org:6969/announce
+
+https://tracker.pmman.tech:443/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
 
@@ -96,19 +96,19 @@ udp://tracker-udp.gbitt.info:80/announce
 
 https://tracker.ghostchu-services.top:443/announce
 
-udp://tracker.breizh.pm:6969/announce
-
 udp://tr4ck3r.duckdns.org:6969/announce
 
 udp://bt.rer.lol:6969/announce
 
-udp://trackthis.cyber.pz.it:1337/announce
+udp://tracker.breizh.pm:6969/announce
 
 udp://admin.52ywp.com:6969/announce
 
 http://tracker.tritan.gg:8080/announce
 
 udp://tracker.hismz.cn:6969/announce
+
+udp://trackthis.cyber.pz.it:1337/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
