@@ -22,8 +22,6 @@ http://tracker.renfei.net:8080/announce
 
 https://tr.nyacat.pw:443/announce
 
-https://t.213891.xyz:443/announce
-
 udp://tracker.flatuslifir.is:6969/announce
 
 udp://tracker.bluefrog.pw:2710/announce
@@ -68,8 +66,6 @@ udp://tracker.torrust-demo.com:6969/announce
 
 udp://tracker.gmi.gd:6969/announce
 
-udp://tracker.ixuexi.click:6969/announce
-
 udp://archive.torrentonline.cc:42069/announce
 
 udp://evan.im:6969/announce
@@ -86,7 +82,11 @@ https://tracker.pmman.tech:443/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
 
+https://t.213891.xyz:443/announce
+
 udp://retracker.hotplug.ru:2710/announce
+
+udp://tracker.ixuexi.click:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
