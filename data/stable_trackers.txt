@@ -28,8 +28,6 @@ udp://tracker.flatuslifir.is:6969/announce
 
 udp://tracker.bluefrog.pw:2710/announce
 
-udp://tracker.ixuexi.click:6969/announce
-
 udp://tracker.corpscorp.online:80/announce
 
 https://tracker.qingwapt.org:443/announce
@@ -52,11 +50,11 @@ udp://tracker.opentorrent.top:6969/announce
 
 udp://ns575949.ip-51-222-82.net:6969/announce
 
-https://tracker.yggleak.top:443/announce
-
 udp://udp1.torrust-tracker-demo.com:6969/announce
 
 https://torrents.tmtime.dev:443/announce
+
+https://tracker.yggleak.top:443/announce
 
 udp://tracker.wildkat.net:6969/announce
 
@@ -69,6 +67,8 @@ udp://tracker.fnix.net:6969/announce
 udp://tracker.torrust-demo.com:6969/announce
 
 udp://tracker.gmi.gd:6969/announce
+
+udp://tracker.ixuexi.click:6969/announce
 
 udp://archive.torrentonline.cc:42069/announce
 
