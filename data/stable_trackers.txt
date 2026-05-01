@@ -40,6 +40,8 @@ udp://tracker.dler.com:6969/announce
 
 udp://martin-gebhardt.eu:25/announce
 
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
 udp://tracker.playground.ru:6969/announce
 
 udp://tracker.opentorrent.top:6969/announce
@@ -64,8 +66,6 @@ udp://tracker.fnix.net:6969/announce
 
 udp://tracker.gmi.gd:6969/announce
 
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
-
 udp://tracker.1h.is:1337/announce
 
 udp://archive.torrentonline.cc:42069/announce
@@ -86,11 +86,9 @@ http://tracker.dhitechnical.com:6969/announce
 
 https://tracker.ghostchu-services.top:443/announce
 
-https://tracker.pmman.tech:443/announce
-
 udp://vito-tracker.duckdns.org:6969/announce
 
-http://tracker.exe.in.th:6969/announce
+https://tracker.pmman.tech:443/announce
 
 udp://tracker.breizh.pm:6969/announce
 
@@ -98,13 +96,13 @@ https://t.213891.xyz:443/announce
 
 udp://tracker.iperson.xyz:6969/announce
 
-udp://tracker.hismz.cn:6969/announce
+http://tracker.exe.in.th:6969/announce
 
 udp://admin.52ywp.com:6969/announce
 
-http://bt2.archive.org:6969/announce
+udp://tracker.hismz.cn:6969/announce
 
-https://tr.nyacat.pw:443/announce
+http://bt2.archive.org:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
