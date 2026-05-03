@@ -1,3 +1,5 @@
+http://tracker.bt4g.com:2095/announce
+
 http://tracker.mywaifu.best:6969/announce
 
 udp://tracker.srv00.com:6969/announce
@@ -46,8 +48,6 @@ udp://open.stealth.si:80/announce
 
 udp://tracker.dler.com:6969/announce
 
-http://tracker.bt4g.com:2095/announce
-
 udp://martin-gebhardt.eu:25/announce
 
 udp://tracker.opentorrent.top:6969/announce
@@ -82,9 +82,9 @@ https://tracker.ghostchu-services.top:443/announce
 
 udp://retracker.hotplug.ru:2710/announce
 
-udp://tracker-udp.gbitt.info:80/announce
-
 udp://vito-tracker.duckdns.org:6969/announce
+
+udp://tracker-udp.gbitt.info:80/announce
 
 udp://tracker.breizh.pm:6969/announce
 
@@ -101,8 +101,6 @@ http://wegkxfcivgx.ydns.eu:80/announce
 http://tracker.tritan.gg:8080/announce
 
 http://bt2.archive.org:6969/announce
-
-https://tracker.yggleak.top:443/announce
 
 udp://admin.52ywp.com:6969/announce
 
