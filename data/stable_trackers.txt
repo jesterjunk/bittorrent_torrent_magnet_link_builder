@@ -52,9 +52,9 @@ udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://yuptracker-eu.gaijinent.com:27022/announce
 
-udp://udp1.torrust-tracker-demo.com:6969/announce
-
 https://torrents.tmtime.dev:443/announce
+
+udp://udp1.torrust-tracker-demo.com:6969/announce
 
 udp://tracker.fnix.net:6969/announce
 
@@ -70,21 +70,19 @@ udp://archive.torrentonline.cc:42069/announce
 
 udp://tracker.torrent.eu.org:451/announce
 
-udp://tracker.torrust-demo.com:6969/announce
-
 udp://tracker.wildkat.net:6969/announce
 
 udp://retracker.hotplug.ru:2710/announce
 
 udp://vito-tracker.duckdns.org:6969/announce
 
-https://tracker.ghostchu-services.top:443/announce
+udp://tracker.torrust-demo.com:6969/announce
 
 https://tracker.pmman.tech:443/announce
 
-https://tracker.zhuqiy.com:443/announce
-
 udp://tracker.hismz.cn:6969/announce
+
+https://tracker.zhuqiy.com:443/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
