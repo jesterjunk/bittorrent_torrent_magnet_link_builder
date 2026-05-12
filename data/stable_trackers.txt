@@ -36,6 +36,8 @@ udp://tracker.nyaa.vc:6969/announce
 
 udp://open.stealth.si:80/announce
 
+udp://retracker.hotplug.ru:2710/announce
+
 udp://martin-gebhardt.eu:25/announce
 
 udp://udp.tracker.projectk.org:23333/announce
@@ -58,21 +60,19 @@ https://http1.torrust-tracker-demo.com:443/announce
 
 udp://tracker.qu.ax:6969/announce
 
-udp://udp1.torrust-tracker-demo.com:6969/announce
-
 https://tracker.7471.top:443/announce
 
 udp://tracker.gmi.gd:6969/announce
 
 http://taciturn-shadow.spb.ru:6969/announce
 
+udp://udp1.torrust-tracker-demo.com:6969/announce
+
 http://bt1.archive.org:6969/announce
 
 http://tracker.waaa.moe:6969/announce
 
 udp://open.ftorrent.com:443/announce
-
-udp://retracker.hotplug.ru:2710/announce
 
 udp://archive.torrentonline.cc:42069/announce
 
@@ -87,8 +87,6 @@ http://bt2.archive.org:6969/announce
 udp://tracker.breizh.pm:6969/announce
 
 https://tracker.pmman.tech:443/announce
-
-udp://vito-tracker.duckdns.org:6969/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
