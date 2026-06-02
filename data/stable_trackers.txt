@@ -94,8 +94,6 @@ udp://tracker.wildkat.net:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
-udp://retracker.hotplug.ru:2710/announce
-
 udp://whybother.torrentonline.cc:42069/announce
 
 http://tracker.ipv6tracker.ru:80/announce
