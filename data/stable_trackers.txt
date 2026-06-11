@@ -38,8 +38,6 @@ udp://tracker-udp.gbitt.info:80/announce
 
 https://tracker.leechshield.link:443/announce
 
-https://tr.nyacat.pw:443/announce
-
 https://tracker.manager.v6.navy:443/announce
 
 udp://tracker.wildkat.net:6969/announce
@@ -51,6 +49,8 @@ https://tracker.anibt.net:443/announce
 https://banananetwork.qzz.io:443/announce
 
 udp://tracker.t-1.org:6969/announce
+
+https://tr.nyacat.pw:443/announce
 
 udp://yuptracker-eu.gaijinent.com:27022/announce
 
@@ -72,11 +72,11 @@ http://bt1.archive.org:6969/announce
 
 http://tracker.bt4g.com:2095/announce
 
-https://tracker.qingwapt.org:443/announce
-
 http://tracker.renfei.net:8080/announce
 
 udp://open.ftorrent.com:443/announce
+
+https://tracker.qingwapt.org:443/announce
 
 udp://tracker.breizh.pm:6969/announce
 
@@ -86,17 +86,17 @@ udp://tracker.dler.com:6969/announce
 
 http://tracker.tritan.gg:8080/announce
 
-udp://tracker.tryhackx.org:6969/announce
+https://shahidrazi.online:443/announce
 
 https://tracker.zhuqiy.com:443/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
-https://tracker.nekomi.cn:443/announce
+udp://tracker.tryhackx.org:6969/announce
 
 udp://t.overflow.biz:6969/announce
 
-https://shahidrazi.online:443/announce
+https://tracker.nekomi.cn:443/announce
 
 udp://anime-tracker.aruku.kro.kr:8081/announce
 
