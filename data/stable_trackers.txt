@@ -10,6 +10,8 @@ udp://martin-gebhardt.eu:25/announce
 
 udp://seedpeer.net:6969/announce
 
+https://tracker.leechshield.link:443/announce
+
 http://wegkxfcivgx.ydns.eu:80/announce
 
 http://echostar.ddnsfree.com:8080/announce
@@ -36,13 +38,11 @@ udp://open.stealth.si:80/announce
 
 udp://tracker-udp.gbitt.info:80/announce
 
-https://tracker.leechshield.link:443/announce
-
-https://tr.nyacat.pw:443/announce
-
 https://tracker.manager.v6.navy:443/announce
 
 udp://tracker.wildkat.net:6969/announce
+
+https://torrents.tmtime.dev:443/announce
 
 udp://tracker.aruku.ovh:8081/announce
 
@@ -52,11 +52,11 @@ https://banananetwork.qzz.io:443/announce
 
 udp://tracker.t-1.org:6969/announce
 
+https://tr.nyacat.pw:443/announce
+
 udp://yuptracker-eu.gaijinent.com:27022/announce
 
 udp://uabits.today:6990/announce
-
-https://torrents.tmtime.dev:443/announce
 
 udp://tracker.gmi.gd:6969/announce
 
@@ -84,17 +84,17 @@ udp://tracker.dler.com:6969/announce
 
 http://tracker.tritan.gg:8080/announce
 
-udp://tracker.1h.is:1337/announce
-
 https://tracker.zhuqiy.com:443/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
-udp://tracker.flatuslifir.is:6969/announce
-
 https://tracker.nekomi.cn:443/announce
 
 udp://t.overflow.biz:6969/announce
+
+udp://tracker.1h.is:1337/announce
+
+udp://tracker.flatuslifir.is:6969/announce
 
 udp://anime-tracker.aruku.kro.kr:8081/announce
 
