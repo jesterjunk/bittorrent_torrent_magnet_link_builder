@@ -80,17 +80,19 @@ http://tracker.renfei.net:8080/announce
 
 udp://tracker.breizh.pm:6969/announce
 
-udp://coeus.torrentonline.cc:42069/announce
-
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
+udp://coeus.torrentonline.cc:42069/announce
 
 udp://tracker.qu.ax:6969/announce
 
-udp://tracker.dler.com:6969/announce
-
 http://tracker.tritan.gg:8080/announce
 
+udp://tracker.dler.com:6969/announce
+
 http://tracker.ipv6tracker.ru:80/announce
+
+http://ipv4announce.sktorrent.eu:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
