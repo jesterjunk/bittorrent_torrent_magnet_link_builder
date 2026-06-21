@@ -36,7 +36,7 @@ https://orgtgju.org:443/announce
 
 https://021912.xyz:443/announce
 
-https://tracker.bigbewbs.online:443/announce
+udp://torrentclub.online:1984/announce
 
 udp://tracker.dler.com:6969/announce
 
@@ -66,9 +66,11 @@ udp://tracker.t-1.org:6969/announce
 
 udp://mail.segso.net:6969/announce
 
-udp://tracker.wildkat.net:6969/announce
+https://tracker.bigbewbs.online:443/announce
 
 udp://tracker.gmi.gd:6969/announce
+
+udp://tracker.wildkat.net:6969/announce
 
 udp://tracker.teambelgium.net:6969/announce
 
@@ -84,9 +86,9 @@ http://speedtest.iperson.xyz:6969/announce
 
 https://tracker.pmman.tech:443/announce
 
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
-
 http://tracker.renfei.net:8080/announce
+
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 udp://tracker.qu.ax:6969/announce
 
