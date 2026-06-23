@@ -46,8 +46,6 @@ http://ipv4announce.sktorrent.eu:6969/announce
 
 https://tr.zukizuki.org:443/announce
 
-https://t.213891.xyz:443/announce
-
 udp://tracker.bluefrog.pw:2710/announce
 
 https://tracker.manager.v6.navy:443/announce
@@ -63,6 +61,8 @@ https://banananetwork.qzz.io:443/announce
 udp://tracker.trackarr.org:6969/announce
 
 udp://tracker.t-1.org:6969/announce
+
+https://t.213891.xyz:443/announce
 
 udp://tracker.teambelgium.net:6969/announce
 
@@ -86,9 +86,9 @@ http://tracker.renfei.net:8080/announce
 
 http://tracker.waaa.moe:6969/announce
 
-udp://tracker.breizh.pm:6969/announce
-
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
+udp://tracker.breizh.pm:6969/announce
 
 udp://coeus.torrentonline.cc:42069/announce
 
