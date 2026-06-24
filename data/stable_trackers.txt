@@ -76,9 +76,9 @@ udp://open.ftorrent.com:443/announce
 
 https://tracker.pmman.tech:443/announce
 
-udp://tracker.wildkat.net:6969/announce
-
 http://bt1.archive.org:6969/announce
+
+udp://tracker.wildkat.net:6969/announce
 
 udp://tracker.qu.ax:6969/announce
 
