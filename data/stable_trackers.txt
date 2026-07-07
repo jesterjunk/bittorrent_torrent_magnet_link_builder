@@ -24,8 +24,6 @@ udp://tracker.opentorrent.top:6969/announce
 
 udp://ns575949.ip-51-222-82.net:6969/announce
 
-udp://tracker.bluefrog.pw:2710/announce
-
 udp://tracker.corpscorp.online:80/announce
 
 https://tracker.manager.v6.navy:443/announce
@@ -54,6 +52,8 @@ udp://tracker.ilibr.org:6969/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
+udp://tracker.bluefrog.pw:2710/announce
+
 udp://open.ftorrent.com:443/announce
 
 udp://anime-tracker.aruku.kro.kr:8081/announce
@@ -70,11 +70,11 @@ http://tracker.dhitechnical.com:6969/announce
 
 https://t.213891.xyz:443/announce
 
-udp://tracker.teambelgium.net:6969/announce
-
 udp://retracker.hotplug.ru:2710/announce
 
 https://tracker.leechshield.link:443/announce
+
+udp://tracker.teambelgium.net:6969/announce
 
 udp://tracker.wildkat.net:6969/announce
 
@@ -96,7 +96,7 @@ http://tracker.renfei.net:8080/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
-https://tracker.zhuqiy.com:443/announce
-
 udp://tracker.breizh.pm:6969/announce
+
+https://tracker.zhuqiy.com:443/announce
 
