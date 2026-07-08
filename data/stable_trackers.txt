@@ -56,11 +56,11 @@ udp://tracker.bluefrog.pw:2710/announce
 
 udp://open.ftorrent.com:443/announce
 
-udp://anime-tracker.aruku.kro.kr:8081/announce
-
 udp://tracker.qu.ax:6969/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
+
+udp://anime-tracker.aruku.kro.kr:8081/announce
 
 udp://open.stealth.si:80/announce
 
@@ -88,9 +88,9 @@ http://bt2.archive.org:6969/announce
 
 http://tracker.waaa.moe:6969/announce
 
-udp://tracker.trackarr.org:6969/announce
-
 udp://t.overflow.biz:6969/announce
+
+udp://tracker.trackarr.org:6969/announce
 
 http://tracker.renfei.net:8080/announce
 
