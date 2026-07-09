@@ -38,13 +38,13 @@ https://banananetwork.qzz.io:443/announce
 
 https://021912.xyz:443/announce
 
-udp://mail.segso.net:6969/announce
-
 https://ht.therarbg.to:443/announce
 
 udp://tracker.peerfect.org:6969/announce
 
 udp://tracker.ilibr.org:6969/announce
+
+udp://tracker.qu.ax:6969/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
@@ -54,9 +54,9 @@ udp://open.ftorrent.com:443/announce
 
 udp://tracker.aruku.ovh:8081/announce
 
-udp://tracker.opentrackr.com:6969/announce
+udp://mail.segso.net:6969/announce
 
-udp://tracker.qu.ax:6969/announce
+udp://tracker.opentrackr.com:6969/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
@@ -68,11 +68,11 @@ http://tracker.dhitechnical.com:6969/announce
 
 udp://anime-tracker.aruku.kro.kr:8081/announce
 
+https://t.213891.xyz:443/announce
+
 udp://retracker.hotplug.ru:2710/announce
 
 https://tracker.leechshield.link:443/announce
-
-https://t.213891.xyz:443/announce
 
 udp://tracker.teambelgium.net:6969/announce
 
@@ -92,11 +92,13 @@ udp://t.overflow.biz:6969/announce
 
 http://tracker.renfei.net:8080/announce
 
-udp://tracker.trackarr.org:6969/announce
-
 http://tracker.ipv6tracker.ru:80/announce
 
+udp://open.demonii.com:1337/announce
+
 udp://tracker.breizh.pm:6969/announce
+
+udp://tracker.trackarr.org:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
