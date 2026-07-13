@@ -72,9 +72,9 @@ udp://tracker.teambelgium.net:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
-udp://retracker.hotplug.ru:2710/announce
-
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
+udp://retracker.hotplug.ru:2710/announce
 
 udp://tracker.wildkat.net:6969/announce
 
