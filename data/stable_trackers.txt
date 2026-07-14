@@ -58,9 +58,9 @@ udp://tracker.opentrackr.com:6969/announce
 
 https://tracker.leechshield.link:443/announce
 
-udp://open.ftorrent.com:443/announce
-
 http://wegkxfcivgx.ydns.eu:80/announce
+
+udp://open.ftorrent.com:443/announce
 
 udp://open.stealth.si:80/announce
 
@@ -82,11 +82,11 @@ https://t.213891.xyz:443/announce
 
 http://bt1.archive.org:6969/announce
 
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
-
 http://bt2.archive.org:6969/announce
 
 udp://t.overflow.biz:6969/announce
+
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
