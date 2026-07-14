@@ -72,9 +72,9 @@ http://tracker.dhitechnical.com:6969/announce
 
 udp://tracker.opentorrent.top:6969/announce
 
-udp://tracker.wildkat.net:6969/announce
-
 udp://retracker.hotplug.ru:2710/announce
+
+udp://tracker.wildkat.net:6969/announce
 
 udp://torrentclub.online:1984/announce
 
