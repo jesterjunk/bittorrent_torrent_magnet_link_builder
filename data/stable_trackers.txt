@@ -92,11 +92,11 @@ udp://t.overflow.biz:6969/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
+udp://tracker.nyaa.vc:6969/announce
+
 http://tracker.renfei.net:8080/announce
 
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 https://tracker.zhuqiy.com:443/announce
-
-udp://tracker.nyaa.vc:6969/announce
 
