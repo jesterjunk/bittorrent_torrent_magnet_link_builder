@@ -1,3 +1,5 @@
+udp://open.stealth.si:80/announce
+
 udp://tracker.dler.com:6969/announce
 
 http://tracker.bt4g.com:2095/announce
@@ -48,9 +50,9 @@ udp://tracker.ilibr.org:6969/announce
 
 udp://tracker.nexusstream.eu:6969/announce
 
-udp://open.stealth.si:80/announce
-
 udp://tracker.qu.ax:6969/announce
+
+http://tracker.waaa.moe:6969/announce
 
 http://echostar.ddnsfree.com:8080/announce
 
@@ -61,8 +63,6 @@ https://tracker.anibt.net:443/announce
 udp://mail.segso.net:6969/announce
 
 udp://tracker.opentrackr.com:6969/announce
-
-http://tracker.waaa.moe:6969/announce
 
 https://tracker.leechshield.link:443/announce
 
