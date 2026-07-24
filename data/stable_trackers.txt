@@ -58,9 +58,9 @@ udp://tracker.aruku.ovh:8081/announce
 
 udp://mail.segso.net:6969/announce
 
-http://tracker.zhuqiy.dgj055.icu:80/announce
-
 udp://anime-tracker.aruku.kro.kr:8081/announce
+
+http://tracker.zhuqiy.dgj055.icu:80/announce
 
 udp://tracker.gmi.gd:6969/announce
 
@@ -70,11 +70,11 @@ http://tracker.dhitechnical.com:6969/announce
 
 udp://open.ftorrent.com:443/announce
 
+https://t.213891.xyz:443/announce
+
 udp://tracker.wildkat.net:6969/announce
 
 udp://tracker.nyaa.vc:6969/announce
-
-https://t.213891.xyz:443/announce
 
 udp://retracker.hotplug.ru:2710/announce
 
@@ -93,6 +93,4 @@ udp://tracker.opentrackr.com:6969/announce
 udp://tracker.ilibr.org:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
-
-udp://tracker.opentorrent.top:6969/announce
 
