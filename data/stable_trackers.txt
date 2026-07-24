@@ -52,8 +52,6 @@ https://tracker.leechshield.link:443/announce
 
 http://echostar.ddnsfree.com:8080/announce
 
-https://tracker.nekomi.cn:443/announce
-
 udp://tracker.aruku.ovh:8081/announce
 
 udp://mail.segso.net:6969/announce
@@ -72,13 +70,15 @@ udp://open.ftorrent.com:443/announce
 
 udp://tracker.wildkat.net:6969/announce
 
-udp://tracker.nyaa.vc:6969/announce
+https://tracker.nekomi.cn:443/announce
 
-https://t.213891.xyz:443/announce
+udp://tracker.nyaa.vc:6969/announce
 
 udp://retracker.hotplug.ru:2710/announce
 
 http://bt1.archive.org:6969/announce
+
+https://t.213891.xyz:443/announce
 
 udp://t.overflow.biz:6969/announce
 
