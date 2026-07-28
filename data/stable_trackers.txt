@@ -60,11 +60,11 @@ udp://retracker.hotplug.ru:2710/announce
 
 http://bt1.archive.org:6969/announce
 
+http://bt2.archive.org:6969/announce
+
 http://tracker.zhuqiy.dgj055.icu:80/announce
 
 udp://tracker.nyaa.vc:6969/announce
-
-http://bt2.archive.org:6969/announce
 
 https://tracker.nekomi.cn:443/announce
 
@@ -76,8 +76,6 @@ https://t.213891.xyz:443/announce
 
 udp://tracker.wildkat.net:6969/announce
 
-http://tracker.bt4g.com:2095/announce
-
 http://tracker.renfei.net:8080/announce
 
 udp://tracker.opentrackr.com:6969/announce
@@ -87,4 +85,6 @@ udp://tracker.ilibr.org:6969/announce
 https://tracker.zhuqiy.com:443/announce
 
 https://orgtgju.org:443/announce
+
+http://tracker.bt4g.com:2095/announce
 
