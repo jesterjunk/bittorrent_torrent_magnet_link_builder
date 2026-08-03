@@ -84,3 +84,5 @@ https://tracker.zhuqiy.com:443/announce
 
 udp://tracker.wildkat.net:6969/announce
 
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
