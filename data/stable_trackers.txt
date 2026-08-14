@@ -36,8 +36,6 @@ https://004430.xyz:443/announce
 
 https://tracker.7471.top:443/announce
 
-udp://anime-tracker.aruku.kro.kr:8081/announce
-
 https://tracker.foreverpirates.co:443/announce
 
 udp://tracker.nyaa.net:6969/announce
@@ -49,6 +47,8 @@ udp://tracker.qu.ax:6969/announce
 udp://martin-gebhardt.eu:25/announce
 
 udp://tracker.aruku.ovh:8081/announce
+
+udp://anime-tracker.aruku.kro.kr:8081/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
@@ -62,9 +62,9 @@ udp://open.ftorrent.com:443/announce
 
 udp://tracker.nexusstream.eu:6969/announce
 
-http://bt1.archive.org:6969/announce
-
 https://tracker.zhuqiy.com:443/announce
+
+http://bt1.archive.org:6969/announce
 
 udp://tracker.teambelgium.net:6969/announce
 
@@ -76,11 +76,11 @@ udp://evan.im:6969/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
+https://tr.zukizuki.org:443/announce
+
 udp://tr.btube3.com:2010/announce
 
 udp://tracker.dler.com:6969/announce
-
-https://tr.zukizuki.org:443/announce
 
 udp://whybother.torrentonline.cc:42069/announce
 
@@ -100,7 +100,7 @@ udp://tracker.breizh.pm:6969/announce
 
 udp://tracker.opentrackr.com:6969/announce
 
-udp://tracker.ilibr.org:6969/announce
-
 http://tracker.xn--djrq4gl4hvoi.top:80/announce
+
+udp://tracker.ilibr.org:6969/announce
 
