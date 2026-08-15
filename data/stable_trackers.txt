@@ -20,6 +20,8 @@ udp://tr3.ysagin.top:2715/announce
 
 https://tracker.leechshield.link:443/announce
 
+https://tr.zukizuki.org:443/announce
+
 http://echostar.ddnsfree.com:8080/announce
 
 http://lucke.fenesisu.moe:6969/announce
@@ -52,8 +54,6 @@ http://tracker.dhitechnical.com:6969/announce
 
 udp://torrentclub.online:1984/announce
 
-https://tr.zukizuki.org:443/announce
-
 http://bt2.archive.org:6969/announce
 
 udp://tracker.gmi.gd:6969/announce
@@ -80,8 +80,6 @@ udp://tracker.dler.com:6969/announce
 
 udp://whybother.torrentonline.cc:42069/announce
 
-udp://tr.btube3.com:2010/announce
-
 https://tracker.pmman.tech:443/announce
 
 udp://obey.torrentonline.cc:42069/announce
@@ -94,11 +92,11 @@ udp://mail.segso.net:6969/announce
 
 udp://tracker.opentrackr.com:6969/announce
 
-udp://t.overflow.biz:6969/announce
-
 udp://tracker.ilibr.org:6969/announce
+
+http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 udp://tracker.breizh.pm:6969/announce
 
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
+udp://t.overflow.biz:6969/announce
 
