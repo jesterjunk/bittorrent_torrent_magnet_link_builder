@@ -20,8 +20,6 @@ udp://martin-gebhardt.eu:25/announce
 
 http://tracker.waaa.moe:6969/announce
 
-udp://tr3.ysagin.top:2715/announce
-
 https://tracker.leechshield.link:443/announce
 
 https://tr.zukizuki.org:443/announce
@@ -56,6 +54,8 @@ udp://tracker.qu.ax:6969/announce
 
 udp://torrent.tracker.durukanbal.com:6969/announce
 
+udp://tr3.ysagin.top:2715/announce
+
 http://tracker.dhitechnical.com:6969/announce
 
 udp://torrentclub.online:1984/announce
@@ -63,6 +63,8 @@ udp://torrentclub.online:1984/announce
 udp://tracker.nexusstream.eu:6969/announce
 
 udp://open.ftorrent.com:443/announce
+
+udp://tracker.0x7c0.com:6969/announce
 
 https://tracker.zhuqiy.com:443/announce
 
@@ -80,8 +82,6 @@ udp://archive.torrentonline.cc:42069/announce
 
 http://tracker.mywaifu.best:6969/announce
 
-udp://tracker.0x7c0.com:6969/announce
-
 udp://tracker.gmi.gd:6969/announce
 
 https://tracker.pmman.tech:443/announce
@@ -98,11 +98,11 @@ udp://whybother.torrentonline.cc:42069/announce
 
 https://tracker.linvk.com:443/announce
 
+udp://tracker.breizh.pm:6969/announce
+
 udp://tr.btube3.com:2010/announce
 
 udp://mail.segso.net:6969/announce
-
-udp://tracker.breizh.pm:6969/announce
 
 udp://tracker.peerfect.org:6969/announce
 
