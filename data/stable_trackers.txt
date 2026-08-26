@@ -16,8 +16,6 @@ http://tracker.waaa.moe:6969/announce
 
 https://tracker.leechshield.link:443/announce
 
-http://wegkxfcivgx.ydns.eu:80/announce
-
 http://echostar.ddnsfree.com:8080/announce
 
 udp://ns575949.ip-51-222-82.net:6969/announce
@@ -44,9 +42,13 @@ udp://martin-gebhardt.eu:25/announce
 
 udp://torrent.tracker.durukanbal.com:6969/announce
 
+http://wegkxfcivgx.ydns.eu:80/announce
+
 https://t.213891.xyz:443/announce
 
 https://004430.xyz:443/announce
+
+udp://torrentclub.online:1984/announce
 
 https://tracker.foreverpirates.co:443/announce
 
@@ -61,8 +63,6 @@ http://bt1.archive.org:6969/announce
 udp://open.ftorrent.com:443/announce
 
 udp://tracker.teambelgium.net:6969/announce
-
-udp://torrentclub.online:1984/announce
 
 udp://tracker.aruku.ovh:8081/announce
 
