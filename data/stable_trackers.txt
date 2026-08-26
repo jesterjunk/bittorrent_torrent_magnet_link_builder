@@ -84,9 +84,9 @@ udp://tracker.dler.com:6969/announce
 
 udp://tracker.breizh.pm:6969/announce
 
-udp://tracker.ilibr.org:6969/announce
-
 udp://tracker.peerfect.org:6969/announce
+
+udp://tracker.ilibr.org:6969/announce
 
 udp://mail.segso.net:6969/announce
 
