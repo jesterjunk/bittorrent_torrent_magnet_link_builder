@@ -6,8 +6,6 @@ http://ipv4announce.sktorrent.eu:6969/announce
 
 udp://tracker.torrent.eu.org:451/announce
 
-udp://open.demonii.com:1337/announce
-
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 udp://tr4ck3r.duckdns.org:6969/announce
@@ -44,8 +42,6 @@ udp://torrent.tracker.durukanbal.com:6969/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
 
-https://t.213891.xyz:443/announce
-
 https://004430.xyz:443/announce
 
 udp://torrentclub.online:1984/announce
@@ -56,15 +52,17 @@ udp://ipv6.govt.hu:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
+https://t.213891.xyz:443/announce
+
 https://tracker.nekomi.cn:443/announce
 
 http://bt1.archive.org:6969/announce
 
 udp://open.ftorrent.com:443/announce
 
-udp://tracker.teambelgium.net:6969/announce
-
 udp://tracker.aruku.ovh:8081/announce
+
+udp://tracker.teambelgium.net:6969/announce
 
 udp://tracker.nexusstream.eu:6969/announce
 
@@ -76,19 +74,21 @@ udp://retracker.hotplug.ru:2710/announce
 
 http://tracker.mywaifu.best:6969/announce
 
-http://tracker.bt4g.com:2095/announce
-
 http://tracker.ipv6tracker.ru:80/announce
 
 udp://tracker.dler.com:6969/announce
 
-udp://tracker.breizh.pm:6969/announce
+udp://open.demonii.com:1337/announce
 
 udp://tracker.peerfect.org:6969/announce
 
 udp://tracker.ilibr.org:6969/announce
 
+http://tracker.bt4g.com:2095/announce
+
 udp://mail.segso.net:6969/announce
+
+udp://tracker.breizh.pm:6969/announce
 
 udp://tracker.opentrackr.com:6969/announce
 
