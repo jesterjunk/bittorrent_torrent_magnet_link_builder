@@ -6,6 +6,8 @@ http://ipv4announce.sktorrent.eu:6969/announce
 
 udp://tracker.torrent.eu.org:451/announce
 
+udp://evan.im:6969/announce
+
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://tracker.waaa.moe:6969/announce
@@ -26,8 +28,6 @@ udp://tracker.qu.ax:6969/announce
 
 udp://tracker.0x7c0.com:6969/announce
 
-udp://evan.im:6969/announce
-
 udp://martin-gebhardt.eu:25/announce
 
 udp://torrent.tracker.durukanbal.com:6969/announce
@@ -44,6 +44,8 @@ https://004430.xyz:443/announce
 
 http://bt1.archive.org:6969/announce
 
+udp://open.ftorrent.com:443/announce
+
 udp://torrentclub.online:1984/announce
 
 https://tracker.foreverpirates.co:443/announce
@@ -56,8 +58,6 @@ https://t.213891.xyz:443/announce
 
 https://tracker.nekomi.cn:443/announce
 
-udp://open.ftorrent.com:443/announce
-
 udp://tracker.aruku.ovh:8081/announce
 
 udp://tracker.teambelgium.net:6969/announce
@@ -66,27 +66,27 @@ udp://tracker.nexusstream.eu:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
+http://tracker.mywaifu.best:6969/announce
+
 https://tracker.pmman.tech:443/announce
 
 https://tracker.zhuqiy.com:443/announce
 
-https://tracker.gcrenwp.top:443/announce
-
 udp://retracker.hotplug.ru:2710/announce
-
-http://tracker.mywaifu.best:6969/announce
 
 udp://tracker.peerfect.org:6969/announce
 
-http://tracker.ipv6tracker.ru:80/announce
-
-udp://tracker.opentrackr.com:6969/announce
-
-udp://tracker.ilibr.org:6969/announce
+udp://tracker.k.vu:6969/announce
 
 udp://mail.segso.net:6969/announce
 
-udp://tracker.k.vu:6969/announce
+udp://tracker.opentrackr.com:6969/announce
+
+http://tracker.ipv6tracker.ru:80/announce
+
+udp://tracker.ilibr.org:6969/announce
+
+https://tracker.gcrenwp.top:443/announce
 
 udp://tracker.breizh.pm:6969/announce
 
@@ -98,9 +98,9 @@ http://tracker.renfei.net:8080/announce
 
 http://bt2.archive.org:6969/announce
 
+udp://tracker.cynma.tv:6969/announce
+
 udp://obey.torrentonline.cc:42069/announce
 
 udp://whybother.torrentonline.cc:42069/announce
-
-http://tracker.bt4g.com:2095/announce
 
