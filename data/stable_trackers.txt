@@ -22,9 +22,15 @@ udp://tracker.corpscorp.online:80/announce
 
 https://tracker.7471.top:443/announce
 
+udp://mail.segso.net:6969/announce
+
 udp://torrentclub.online:1984/announce
 
 udp://tracker.peerfect.org:6969/announce
+
+udp://tracker.opentrackr.com:6969/announce
+
+udp://tracker.ilibr.org:6969/announce
 
 udp://tracker.nyaa.net:6969/announce
 
@@ -50,12 +56,6 @@ http://bt1.archive.org:6969/announce
 
 udp://open.ftorrent.com:443/announce
 
-udp://mail.segso.net:6969/announce
-
-udp://tracker.opentrackr.com:6969/announce
-
-udp://tracker.ilibr.org:6969/announce
-
 udp://tracker.nexusstream.eu:6969/announce
 
 udp://ipv6.govt.hu:6969/announce
@@ -72,11 +72,11 @@ udp://tracker.aruku.ovh:8081/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
-https://tracker.lenition.de:443/announce
-
 udp://retracker.hotplug.ru:2710/announce
 
 https://tracker.zhuqiy.com:443/announce
+
+https://tracker.lenition.de:443/announce
 
 udp://tracker.k.vu:6969/announce
 
