@@ -34,8 +34,6 @@ udp://tracker.ilibr.org:6969/announce
 
 udp://tracker.nyaa.net:6969/announce
 
-udp://tracker.cn.nyaa.net:6969/announce
-
 udp://tracker.0x7c0.com:6969/announce
 
 udp://martin-gebhardt.eu:25/announce
@@ -58,6 +56,8 @@ udp://open.ftorrent.com:443/announce
 
 https://tracker.foreverpirates.co:443/announce
 
+udp://tracker.cn.nyaa.net:6969/announce
+
 udp://ipv6.govt.hu:6969/announce
 
 udp://tracker.dler.com:6969/announce
@@ -70,11 +70,11 @@ udp://tracker.nexusstream.eu:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
+udp://tracker.aruku.ovh:8081/announce
+
 udp://retracker.hotplug.ru:2710/announce
 
 https://tracker.zhuqiy.com:443/announce
-
-udp://tracker.aruku.ovh:8081/announce
 
 udp://tracker.k.vu:6969/announce
 
@@ -98,11 +98,9 @@ http://tracker.renfei.net:8080/announce
 
 http://bt2.archive.org:6969/announce
 
-udp://obey.torrentonline.cc:42069/announce
-
 udp://whybother.torrentonline.cc:42069/announce
 
-https://tracker.gcrenwp.top:443/announce
+udp://obey.torrentonline.cc:42069/announce
 
 udp://t.overflow.biz:6969/announce
 
