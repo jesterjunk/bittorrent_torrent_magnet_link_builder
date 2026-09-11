@@ -80,9 +80,9 @@ udp://mail.segso.net:6969/announce
 
 https://004430.xyz:443/announce
 
-http://tracker.mywaifu.best:6969/announce
-
 udp://t.overflow.biz:6969/announce
+
+http://tracker.mywaifu.best:6969/announce
 
 udp://tracker.teambelgium.net:6969/announce
 
@@ -96,9 +96,9 @@ udp://tracker.gmi.gd:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
-https://tracker.zhuqiy.com:443/announce
-
 udp://tracker.cn.nyaa.net:6969/announce
 
 udp://tracker.breizh.pm:6969/announce
+
+https://tracker.zhuqiy.com:443/announce
 
