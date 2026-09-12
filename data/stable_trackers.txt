@@ -14,6 +14,8 @@ udp://tracker.0x7c0.com:6969/announce
 
 udp://evan.im:6969/announce
 
+http://tracker.zhuqiy.dgj055.icu:80/announce
+
 udp://torrent.tracker.durukanbal.com:6969/announce
 
 http://tracker.waaa.moe:6969/announce
@@ -74,8 +76,6 @@ udp://tracker.govt.hu:6969/announce
 
 udp://tracker.ilibr.org:6969/announce
 
-http://tracker.zhuqiy.dgj055.icu:80/announce
-
 https://004430.xyz:443/announce
 
 udp://tracker.opentrackr.com:6969/announce
@@ -103,6 +103,4 @@ udp://tracker.breizh.pm:6969/announce
 https://tracker.zhuqiy.com:443/announce
 
 udp://tracker.cn.nyaa.net:6969/announce
-
-udp://seedpeer.net:6969/announce
 
