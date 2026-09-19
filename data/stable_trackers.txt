@@ -26,8 +26,6 @@ udp://tracker.corpscorp.online:80/announce
 
 https://tracker.7471.top:443/announce
 
-udp://anime-tracker.aruku.kro.kr:8081/announce
-
 udp://tracker.nyaa.net:6969/announce
 
 https://tracker.onetracker.net:443/announce
@@ -39,6 +37,8 @@ https://1.tracker.eu.org:443/announce
 http://ipv4announce.sktorrent.eu:6969/announce
 
 http://bt2.archive.org:6969/announce
+
+udp://anime-tracker.aruku.kro.kr:8081/announce
 
 https://tracker.foreverpirates.co:443/announce
 
@@ -88,9 +88,9 @@ udp://tracker.gmi.gd:6969/announce
 
 https://tracker.nekomi.cn:443/announce
 
-http://tracker.zhuqiy.dgj055.icu:80/announce
-
 udp://tracker.breizh.pm:6969/announce
+
+http://tracker.zhuqiy.dgj055.icu:80/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
@@ -101,8 +101,6 @@ https://004430.xyz:443/announce
 udp://tracker.cn.nyaa.net:6969/announce
 
 http://tracker.mywaifu.best:6969/announce
-
-http://tracker.xn--djrq4gl4hvoi.top:80/announce
 
 https://tracker.qingwapt.org:443/announce
 
