@@ -86,11 +86,11 @@ udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 udp://tracker.gmi.gd:6969/announce
 
-udp://tracker.breizh.pm:6969/announce
-
 http://tracker.zhuqiy.dgj055.icu:80/announce
 
 https://tracker.nekomi.cn:443/announce
+
+udp://tracker.breizh.pm:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
