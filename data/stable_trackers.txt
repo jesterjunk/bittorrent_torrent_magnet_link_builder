@@ -42,11 +42,13 @@ udp://tracker-udp.gbitt.info:80/announce
 
 udp://tracker.nyaa.vc:6969/announce
 
-http://bt2.archive.org:6969/announce
-
 https://tracker.foreverpirates.co:443/announce
 
 http://tracker.ipv6tracker.ru:80/announce
+
+http://bt1.archive.org:6969/announce
+
+http://bt2.archive.org:6969/announce
 
 udp://open.stealth.si:80/announce
 
@@ -61,8 +63,6 @@ https://t.213891.xyz:443/announce
 udp://tracker.corpscorp.online:80/announce
 
 https://tracker.qingwapt.org:443/announce
-
-http://bt1.archive.org:6969/announce
 
 udp://tracker.ducks.party:1984/announce
 
@@ -84,17 +84,19 @@ http://tracker.waaa.moe:6969/announce
 
 http://tracker.dhitechnical.com:6969/announce
 
-udp://kolankoalastree.newtrackon.co.nz:1337/announce
+udp://ns575949.ip-51-222-82.net:6969/announce
 
 udp://v2.iperson.xyz:6969/announce
 
-udp://tracker.nyaa.net:6969/announce
+udp://kolankoalastree.newtrackon.co.nz:1337/announce
 
-udp://ns575949.ip-51-222-82.net:6969/announce
+udp://tracker.nyaa.net:6969/announce
 
 http://echostar.ddnsfree.com:8080/announce
 
 udp://tracker.yume-hatsuyuki.moe:6969/announce
 
 udp://tracker.okade.pro:1337/announce
+
+udp://tr.btube3.com:2010/announce
 
