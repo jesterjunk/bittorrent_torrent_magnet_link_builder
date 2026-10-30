@@ -52,8 +52,6 @@ udp://tracker.aruku.ovh:8081/announce
 
 https://tracker.foreverpirates.co:443/announce
 
-udp://opentracker.lain.moscow:6969/announce
-
 http://tracker.internetwarriors.net:1337/announce
 
 udp://open.stealth.si:80/announce
@@ -68,6 +66,8 @@ https://tracker.qingwapt.org:443/announce
 
 http://bt2.archive.org:6969/announce
 
+udp://opentracker.lain.moscow:6969/announce
+
 http://tracker.mywaifu.best:6969/announce
 
 udp://tracker.qu.ax:6969/announce
@@ -78,9 +78,9 @@ http://wegkxfcivgx.ydns.eu:80/announce
 
 udp://tracker.ducks.party:1984/announce
 
-https://tracker.pmman.tech:443/announce
-
 udp://open.ftorrent.com:443/announce
+
+https://tracker.pmman.tech:443/announce
 
 http://tracker.waaa.moe:6969/announce
 
