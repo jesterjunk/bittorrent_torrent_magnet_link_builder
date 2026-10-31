@@ -84,9 +84,9 @@ https://tracker.pmman.tech:443/announce
 
 http://tracker.waaa.moe:6969/announce
 
-http://ipv4announce.sktorrent.eu:6969/announce
-
 udp://tracker.nyaa.net:6969/announce
+
+http://ipv4announce.sktorrent.eu:6969/announce
 
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
