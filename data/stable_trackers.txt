@@ -64,9 +64,9 @@ https://tracker.qingwapt.org:443/announce
 
 http://bt2.archive.org:6969/announce
 
-udp://tracker.dler.com:6969/announce
-
 http://tracker.mywaifu.best:6969/announce
+
+udp://tracker.dler.com:6969/announce
 
 udp://t.overflow.biz:6969/announce
 
@@ -88,13 +88,11 @@ http://echostar.ddnsfree.com:8080/announce
 
 udp://v2.iperson.xyz:6969/announce
 
-http://ipv4announce.sktorrent.eu:6969/announce
-
 udp://tracker.breizh.pm:6969/announce
 
-udp://tracker.opentrackr.com:6969/announce
+http://ipv4announce.sktorrent.eu:6969/announce
 
 udp://tracker.opentrackr.org:1337/announce
 
-udp://tracker.ilibr.org:6969/announce
+udp://tracker.opentrackr.com:6969/announce
 
