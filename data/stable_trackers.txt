@@ -96,3 +96,5 @@ udp://opentracker.lain.moscow:6969/announce
 
 udp://tracker.opentrackr.org:1337/announce
 
+udp://retracker.hotplug.ru:2710/announce
+
