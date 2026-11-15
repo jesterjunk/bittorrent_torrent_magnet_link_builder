@@ -92,9 +92,9 @@ https://t.213891.xyz:443/announce
 
 udp://v2.iperson.xyz:6969/announce
 
-http://tracker.beeimg.com:6969/announce
-
 udp://mail.segso.net:6969/announce
+
+http://tracker.beeimg.com:6969/announce
 
 udp://tracker.opentrackr.org:1337/announce
 
