@@ -98,7 +98,9 @@ http://tracker.beeimg.com:6969/announce
 
 udp://tracker.opentrackr.org:1337/announce
 
+udp://tracker.ilibr.org:6969/announce
+
 http://echostar.ddnsfree.com:8080/announce
 
-udp://tracker.ilibr.org:6969/announce
+udp://tracker.peerfect.org:6969/announce
 
