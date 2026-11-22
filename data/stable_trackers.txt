@@ -10,6 +10,10 @@ udp://evan.im:6969/announce
 
 udp://martin-gebhardt.eu:25/announce
 
+udp://torrent.tracker.durukanbal.com:6969/announce
+
+udp://tr4ck3r.duckdns.org:6969/announce
+
 http://tracker.waaa.moe:6969/announce
 
 http://wegkxfcivgx.ydns.eu:80/announce
@@ -23,6 +27,8 @@ https://tracker.7471.top:443/announce
 udp://tracker.wildkat.net:6969/announce
 
 udp://tracker.nyaa.vc:6969/announce
+
+udp://tracker.opentrackr.com:6969/announce
 
 https://tracker.foreverpirates.co:443/announce
 
@@ -44,10 +50,6 @@ udp://tracker.evergarden.uk:1914/announce
 
 https://tracker.augrains.com:443/announce
 
-udp://torrent.tracker.durukanbal.com:6969/announce
-
-udp://tr4ck3r.duckdns.org:6969/announce
-
 http://tracker.dhitechnical.com:6969/announce
 
 https://t.213891.xyz:443/announce
@@ -56,7 +58,11 @@ udp://tracker.corpscorp.online:80/announce
 
 http://bt2.archive.org:6969/announce
 
+udp://mail.segso.net:6969/announce
+
 udp://tracker.peerfect.org:6969/announce
+
+udp://tracker.ilibr.org:6969/announce
 
 udp://tracker.ducks.party:1984/announce
 
@@ -70,19 +76,13 @@ https://004430.xyz:443/announce
 
 http://bt1.archive.org:6969/announce
 
-udp://mail.segso.net:6969/announce
-
-udp://tracker.opentrackr.com:6969/announce
-
-udp://tracker.ilibr.org:6969/announce
-
 http://tracker.ipv6tracker.ru:80/announce
+
+udp://open.demonii.com:1337/announce
 
 udp://tracker.willy.pro:6969/announce
 
 udp://kolankoalastree.newtrackon.co.nz:1337/announce
-
-udp://open.demonii.com:1337/announce
 
 https://tracker.qingwapt.org:443/announce
 
@@ -98,11 +98,11 @@ udp://tracker.dler.com:6969/announce
 
 udp://v2.iperson.xyz:6969/announce
 
-http://tracker.internetwarriors.net:1337/announce
+http://tracker.beeimg.com:6969/announce
 
 udp://tracker.alt.cx:6969/announce
 
-http://tracker.beeimg.com:6969/announce
+http://tracker.internetwarriors.net:1337/announce
 
 udp://tracker.opentrackr.org:1337/announce
 
