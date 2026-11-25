@@ -90,9 +90,9 @@ udp://tracker-udp.gbitt.info:80/announce
 
 https://tracker.foreverpirates.co:443/announce
 
-udp://tracker.nyaa.net:6969/announce
-
 udp://open.ftorrent.com:443/announce
+
+udp://tracker.nyaa.net:6969/announce
 
 udp://tracker.dler.com:6969/announce
 
@@ -104,7 +104,7 @@ udp://v2.iperson.xyz:6969/announce
 
 http://tracker.beeimg.com:6969/announce
 
-http://tracker.internetwarriors.net:1337/announce
-
 udp://tracker.opentrackr.org:1337/announce
+
+http://tracker.internetwarriors.net:1337/announce
 
