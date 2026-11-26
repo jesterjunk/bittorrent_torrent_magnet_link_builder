@@ -2,8 +2,6 @@ udp://open.stealth.si:80/announce
 
 udp://tracker.torrent.eu.org:451/announce
 
-http://tracker.mywaifu.best:6969/announce
-
 udp://tracker.qu.ax:6969/announce
 
 udp://evan.im:6969/announce
@@ -51,6 +49,8 @@ udp://tracker.evergarden.uk:1914/announce
 https://tracker.augrains.com:443/announce
 
 udp://stairs.lat:6969/announce
+
+http://tracker.mywaifu.best:6969/announce
 
 udp://tracker.corpscorp.online:80/announce
 
@@ -100,9 +100,9 @@ udp://tracker.alt.cx:6969/announce
 
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
-udp://v2.iperson.xyz:6969/announce
-
 http://tracker.beeimg.com:6969/announce
+
+udp://v2.iperson.xyz:6969/announce
 
 udp://tracker.opentrackr.org:1337/announce
 
